@@ -1,0 +1,43 @@
+
+#parent{
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+#login{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: auto;
+    padding-left: 80px;
+}
+#bold{
+    font-size: 25px;
+    font-weight: 450;
+    margin-top: 70px;
+}
+.p2{
+    font-size: 13px;
+}
+#p3{
+    margin-top: 20px;
+}
+#email{
+    width: 350px;
+    height: 40px;
+}
+#p2{
+    margin-bottom: 5px;
+}
+#p4{
+    margin-top: 5px;
+}
+#btn1{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
