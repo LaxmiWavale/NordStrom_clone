@@ -26,9 +26,16 @@ import {colourSection} from '../../components/activeware_comp.js'
 
 import {user_rating} from '../../components/activeware_comp.js'
 
+// Import Navbar
+
 import { navbar } from "../../../NavbarUpdate/components/navbar.js";
 
 document.getElementById("navbar_sd").innerHTML = navbar()
+
+// Import footer 
+
+import {footer} from '../../footer/footercompo.js'
+document.getElementById("footer_sd").innerHTML= footer();
 
 
 

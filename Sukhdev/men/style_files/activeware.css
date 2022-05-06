@@ -4,6 +4,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
 }
 #activeware{
+    
     margin: 0% 3%;
 }
 
@@ -31,8 +32,8 @@
 #sidebar{
     /* border: 1px solid red; */
     width: 15%;
-    height: 650px;
-    /* overflow: scroll; */
+    height: 900px;
+   
 }
 
 
