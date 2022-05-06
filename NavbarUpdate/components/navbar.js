@@ -43,7 +43,7 @@ function navbar(){
                    <div id="main_sales">
                        <div id="sales">
                           <b>Sale: Get Inspired</b>
-                           <hr>
+                           <hr id="hr">
                            <a href="" class="p1"><p>BestSellers</p></a>
                           <a href="" class="p1"><p>New Markdowns</p></a> 
                           <a href="" class="p1"><p>Price Matched</p></a> 
