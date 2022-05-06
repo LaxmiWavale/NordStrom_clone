@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.heading{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 2%;
+}
+hr{
+    margin-top: 4%;
+    border-color: black;
+    border-width: 1px;
+    background-color: black;
+}
+
+/* =========================================================================== */
+/* =========================================================================== */
+
+
+
+#main{
+    width: 96%;
+    margin: auto;
+}
+#first{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 2%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(224, 229, 234);
+}
+
+
+.child1{
+    margin-right: 2%;
+}
+
+.Abtn img{
+    width: 32px;
+    height: 40px;
+    background-color: white;
+}
+.Abtn{
+    height: 50px;
+   background: white;
+   border: none;
+   width: 36px;
+}
+.Abtn:hover{
+    background:black;
+    border: 1px solid black;
+}
+
+.Abtn img:hover{
+        filter: invert(100);
+}
+.child2{
+    width: 140px;
+    height: 50px;
+    /* margin-right: 10%; */
+}
+
+.child2 img{
+    width: 100%;
+    height: 100%;
+}
+.child3{
+    line-height: 30px;
+    /* margin-right: 18%; */
+}
+.child3 p:nth-child(2){
+    font-size: 14px;
+}
+#h3head{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.child3 button{
+    font-size: 14px;
+    background:none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.child4{
+    width: 110px;
+    height: 160px;
+    /* margin-right: 10%; */
+}
+.child4 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================================================================================ */
+/* ============================================================================================ */
+/* ============================================================================================ */
+
+#second{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#SecImgDiv{
+    width: 65%;
+    height: 650px;
+    overflow: hidden;
+    margin-right: 4%;
+    /* border: 2px solid red; */
+}
+
+#SecImgDiv img{ 
+    width: 160%;
+    height: 100%; 
+    cursor: pointer; 
+} 
+
+#secInfoDiv{
+    width: 35%;
+    margin-top: 10%;
+}
+#secInfoDiv p:nth-child(1){
+    width: 80%;
+   font-size: 30px;
+   font-weight: bold;
+}
+#secInfoDiv p:nth-child(2){
+    width: 80%;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+#secInfoDiv div{
+    margin-top: 4%;
+    width: 80%;
+    display: flex;
+}
+
+#secInfoDiv div button{
+    margin-right: 4%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+/* ============================================================================================ */
+/* ============================================================================================ */
+/* ============================================================================================ */
+#third{
+    margin-top: 4%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10%;
+
+}
+
+#tdA{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 450px;
+     margin-bottom: 5%;
+}
+.child11{
+    margin-right: 0;
+}
+#third h3{
+   font-size: 22px;
+}
+#third>div>p{
+   font-size: 15px;
+   margin-bottom: 2%;
+}
+#slider{
+    overflow: hidden;
+}
+#figure{
+    position: relative;
+    width: 300%;
+    left: 0;
+    margin: 0;
+    display: flex;
+    animation: 15s slider infinite;
+}
+@keyframes slider {
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: -50%;
+    }
+    25%{
+        left: -50%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -100%;
+    }
+    70%{
+        left: -150%;
+    }
+    75%{
+        left: -150%;
+    }
+    95%{
+        left: -200%;
+    }
+    100%{
+        left: -200%;
+    }
+
+}
+
+
+#thirdDiv{
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+    width: 20%; 
+    float: left;
+   height: 450px;
+   line-height: 20px;
+}
+
+#rating{
+    position: absolute;
+    height: 22px;
+    bottom: 2px;
+}
+
+#slider div img:nth-child(1){
+    width: 100%;
+   height: 70%;
+}
+
+.p1{
+    font-size: 14px;
+}
+.p2{
+    font-size: 12px;
+}
+.p3{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+}
+.p4{
+    font-size: 12px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 6%;
+}
+
+/* ================================================================================================ */
+/* ================================================================================================ */
+
+#fourth{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3%;
+}
+
+#forthImgDiv{
+    width: 80%;
+    height: 600px;
+    margin-right: 4%;
+    /* border: 2px solid red; */
+}
+
+#forthImgDiv img{ 
+    height: 100%;
+    width: 150%;
+    margin: 0%;   
+    cursor: pointer; 
+} 
+
+#forthinfoDiv{
+    width: 35%;
+    margin-top: 10%;
+}
+
+#forthinfoDiv p:nth-child(1){
+   font-size: 30px;
+   font-weight: bold;
+}
+
+#forthinfoDiv p:nth-child(2){
+    width: 80%;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+#forthinfoDiv div{
+    margin-top: 4%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forthinfoDiv div button{
+    font-size: 14px;
+    margin-right: 4%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    line-height: 30px;
+}
+
+hr{
+    margin-bottom: 20px;
+    border:2px solid black;
+    border-spacing: 0px;
+
+}
+
+/* ================================================================================================= */
+/* ================================================================================================= */
+#fifth{
+    font-family: 'Open Sans', sans-serif;
+    /* border: 2px solid yellow; */
+    height: 720px;
+}
+
+
+#fifthmain{
+    display: flex;
+    justify-content: space-between;
+}
+#fifthA,#fifthB{
+    width: 49%;
+    line-height: 25px;
+}
+#fifthA img,#fifthB img{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+}
+
+.FDP1{
+    font-size: 26px;
+    font-weight: bold;
+ }
+ 
+ .FDP2{
+     font-size: 15px;
+ }
+
+ .FDbtn{
+    font-size: 14px;
+    margin-right: 4%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+ }
+
+ /* =================================================================================================== */
+ /* =================================================================================================== */
+
+ #sixth{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8%;
+}
+
+
+#sixthImgDiv{
+    width: 80%;
+    height: 600px;
+    margin-right: 3%;
+    /* border: 2px solid red; */
+}
+
+#sixthImgDiv img{ 
+    height: 100%;
+    width: 150%;
+    margin: 0%;   
+    cursor: pointer; 
+} 
+
+#sixthinfoDiv{
+    width: 35%;
+    margin-top: 10%;
+}
+
+#sixthinfoDiv p:nth-child(1){
+   font-size: 30px;
+   font-weight: bold;
+}
+
+#sixthinfoDiv p:nth-child(2){
+    width: 80%;
+   font-size: 16px;
+   line-height: 22px;
+}
+
+#sixthinfoDiv div{
+    margin-top: 4%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sixthinfoDiv button{
+    font-size: 14px;
+    margin-right: 4%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    line-height: 30px;
+}
+/* ======================================================= */
+/* ======================================================= */
+
+
+#seventh{
+    margin-top: 4%;
+    margin-bottom: 10%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#seventh h3{
+   font-size: 32px;
+   margin-bottom: 2%;
+   font-weight: lighter;
+}
+
+#SevendA{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    height: 450px;
+     margin-bottom: 5%;
+}
+.child11{
+    margin-right: 0;
+}
+#third h3{
+   font-size: 22px;
+}
+#third>div>p{
+   font-size: 15px;
+   margin-bottom: 2%;
+}
+#slider1{
+    overflow: hidden;
+}
+#figure1{
+    position: relative;
+    width: 300%;
+    left: 0;
+    margin: 0;
+    display: flex;
+    animation: 15s slider infinite;
+}
+@keyframes slider1 {
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: -50%;
+    }
+    25%{
+        left: -50%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -100%;
+    }
+    70%{
+        left: -150%;
+    }
+    75%{
+        left: -150%;
+    }
+    95%{
+        left: -200%;
+    }
+    100%{
+        left: -200%;
+    }
+
+}
+#SeventhDiv{
+    cursor: pointer;
+    margin: 0px 5px 0px 5px;
+    width: 20%; 
+    float: left;
+   height: 450px;
+   line-height: 20px;
+}
+
+#rating{
+    position: absolute;
+    height: 22px;
+    bottom: 2px;
+}
+
+#slider1 div img:nth-child(1){
+    width: 100%;
+   height: 70%;
+}
+
+.p1{
+    font-size: 14px;
+}
+.p2{
+    font-size: 12px;
+}
+.p3{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10%;
+}
+.p4{
+    font-size: 12px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 6%;
+}
+
+
+
+
+/* ======================================================= */
+/* ======================================================= */
+#eighth{  
+    margin-bottom: 5%; 
+}
+#eighthmain{
+    margin-top: 1%;
+    width: 100%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.eightIMg{
+    width: 100%;
+    height: 80%;
+}
+
+
+/* =============================================================== */
+/* =============================================================== */
+
+#nineth{
+    /* margin-bottom: 1%; */
+    display: flex;
+    height: 300px;
+}
+
+#nineth img{
+    width: 60%;
+    height: 200px;
+}
+
+#nineth iframe{
+    height: 100%;
+    width: 40%;
+}
+
+
+/* =============================================================================================================== */
+/* =============================================================================================================== */
+#tenth{
+    position: relative;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#tenthInfoDiv{
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    line-height: 25px;
+}
+#tenthSub{
+    width: 100%; 
+}
+
+#tenthSub img{
+    width: 100%;
+    margin-bottom: 2%;
+} 
+
+/* ================================================================================================ */
+/* ================================================================================================ */
+
+#eleventh{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10%;
+}
+
+#eleventh a{
+   text-decoration: none;
+}
+#Elevencategorydiv{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+}
+
+#Elevencategorydiv div img{
+    width: 100%;
+}
+
+#Elevencategorydiv div p{
+    margin-top: 2%;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
