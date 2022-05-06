@@ -10,6 +10,7 @@ body {
 }
 #showed > div {
   border: 0px rgb(212, 32, 32) solid;
+  margin-top: 50px;
 }
 #TwoImage {
   flex: 1.8;

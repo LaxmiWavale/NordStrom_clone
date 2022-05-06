@@ -3,6 +3,12 @@ document.querySelector("#TotalPeise").innerHTML = "Rs." + " " + price;
 
 document.querySelector("#Calculate").innerHTML += 100 + 50 + price;
 
+document.querySelector("#continue").addEventListener("click", function () {
+  Final();
+});
+document.querySelector("#continue2").addEventListener("click", function () {
+  Final();
+});
 function Final() {
   let Firstname = document.querySelector("#Name").value;
   let Lastname = document.querySelector("#LastName").value;
@@ -33,12 +39,11 @@ function Final() {
     localStorage.setItem("details", JSON.stringify(details));
 
     window.location.href = "./orderPlace.html";
-  }else{
-	  alert("Please Fill required Details")
+  } else {
+    alert("Please Fill required Details");
   }
 }
 
-
-function GoBack(){
-	window.location.href = "../BagView/bagView.html";
+function GoBack() {
+  window.location.href = "../BagView/bagView.html";
 }

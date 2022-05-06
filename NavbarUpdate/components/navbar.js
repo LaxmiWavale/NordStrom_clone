@@ -1,8 +1,8 @@
 function navbar() {
   return `        <div id="navbar1">
-    <a href="index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
+    <a href="../../homepage/homepage.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
        <div id="input">
-       <input  type="text" id="search" placeholder="Seacrh for products or brands">
+       <input   type="text" id="search" placeholder="Seacrh for products or brands">
        <span id="i1"><i  class="fa-solid fa-magnifying-glass"></i></span>
        </div>
        <div id="main">
@@ -30,7 +30,7 @@ function navbar() {
                   <p class="p">Contact Us</p>
                </div>
              </div>
-          <a href=""><div id="cart"><img id="imgg" src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt=""> </div></a> 
+          <a href="../../NORD_STROM_UNIT_3/BagView/bagView.html"><div id="cart"><img id="imgg" src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt=""> </div></a> 
        </div>
    </div>
    <hr>

@@ -51,13 +51,13 @@ function ClothMap(url) {
       peise.innerText = e.price;
       peise.setAttribute("id", "peise");
 
-      let ColorDiv=document.createElement("div")
-      ColorDiv.setAttribute("id","AvailableColors")
-      for(let i=0; i<e.swatches.length; i++){
-        let firstcolorDiv=document.createElement("div")
-        firstcolorDiv.style.background=e.swatches[i].colorCode
-        firstcolorDiv.setAttribute("id","smallColorDiv")
-        ColorDiv.append(firstcolorDiv)
+      let ColorDiv = document.createElement("div");
+      ColorDiv.setAttribute("id", "AvailableColors");
+      for (let i = 0; i < e.swatches.length; i++) {
+        let firstcolorDiv = document.createElement("div");
+        firstcolorDiv.style.background = e.swatches[i].colorCode;
+        firstcolorDiv.setAttribute("id", "smallColorDiv");
+        ColorDiv.append(firstcolorDiv);
       }
 
       let sellingAttribute = document.createElement("p");
@@ -68,7 +68,15 @@ function ClothMap(url) {
       category.innerText = "category: " + e.category;
       category.setAttribute("id", "category");
 
-      box.append(pic, Dissappering, title, peise, ColorDiv,sellingAttribute, category);
+      box.append(
+        pic,
+        Dissappering,
+        title,
+        peise,
+        ColorDiv,
+        sellingAttribute,
+        category
+      );
       document.querySelector("#ClothDataMap").append(box);
     });
   }

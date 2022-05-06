@@ -142,7 +142,7 @@ body {
   height: 13px;
   margin-left: 10%;
 }
-#card {
+#card,#Code {
   border: rgb(210, 204, 204) solid 0.5px;
   margin-bottom: 3%;
   padding: 9px 0px 9px 8px;

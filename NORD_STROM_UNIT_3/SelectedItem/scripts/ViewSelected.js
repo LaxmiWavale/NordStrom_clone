@@ -1,3 +1,6 @@
+import { navbar } from "../../../NavbarUpdate/components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
+
 let SelectedItem = JSON.parse(localStorage.getItem("Selected"));
 
 let FirstPic = document.createElement("img");
@@ -41,15 +44,20 @@ for (let i = 0; i < SelectedItem.swatches.length; i++) {
   document.querySelector("#AvailableColors").append(firstcolorDiv, colorName);
 }
 
-
 let AddedToBag = JSON.parse(localStorage.getItem("Cart")) || [];
-let ArrSC=JSON.parse(localStorage.getItem("SC")) || []
+let ArrSC = JSON.parse(localStorage.getItem("SC")) || [];
+
+document
+  .querySelector("#AddToCartButton")
+  .addEventListener("click", function () {
+    GoToCart();
+  });
 function GoToCart() {
-  let SizeColorArr={
-    size1:document.querySelector("#SizeSelect").value,
-    color:document.querySelector("#ColorSelect").value
-  }
-  ArrSC.push(SizeColorArr)
+  let SizeColorArr = {
+    size1: document.querySelector("#SizeSelect").value,
+    color: document.querySelector("#ColorSelect").value,
+  };
+  ArrSC.push(SizeColorArr);
   alert("Product Added to your Bag");
   AddedToBag.push(SelectedItem);
   localStorage.setItem("SC", JSON.stringify(ArrSC));

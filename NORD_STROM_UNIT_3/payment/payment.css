@@ -100,7 +100,7 @@ input {
   justify-content: space-between;
   gap: 30px;
 }
-#Name {
+#Name ,#LastName,#City,#Location,#Phone,#Postal{
   width: 50%;
 }
 #shipping {
