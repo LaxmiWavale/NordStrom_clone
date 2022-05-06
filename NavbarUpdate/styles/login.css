@@ -1,0 +1,50 @@
+
+
+
+#loginpage{
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+}
+
+#loginPage1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: auto;
+    padding-left: 80px;
+}
+#id{
+    font-size: 25px;
+        color: rgb(53, 53, 53);
+}
+.svg{
+    margin-right: 30px;
+}
+#button{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+#password1{
+    width: 350px;
+    height: 40px;
+}
+#p4{
+    font-size: 13px;
+}
+#userName1{
+    width: 350px;
+    height: 40px;
+}
+#user{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+#pass{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
