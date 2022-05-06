@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/ViewSelected.css" />
+    <script
+      src="https://kit.fontawesome.com/54ac14c613.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div id="showed">
+      <div id="TwoImage"></div>
+      <div id="AllDetailDiv">
+        <div id="DetailDiv"></div>
+        <div id="size"></div>
+        <select name="" id="SizeSelect">
+          <option value="">Select Size</option>
+          <option value="XX-Small" id="XX">XX-Small</option>
+          <option value="X-Small">X-Small</option>
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="Large">Large</option>
+          <option value="X-Large">X-Large</option>
+          <option value="XX-Large">XX-Large</option>
+        </select>
+        <select name="" id="ColorSelect">
+          <option value="">Select Color</option>
+        </select>
+        <div id="AvailableColors"></div>
+        <button id="AddToCartButton" onclick="GoToCart()">
+          <i style="margin-right: 3%" class="bi bi-bag"></i>Add to Bag
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/ViewSelected.js"></script>

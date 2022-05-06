@@ -1,0 +1,73 @@
+body {
+  background-color: #ffffff;
+  padding: 1.7%;
+}
+#showed {
+  border: 0px black solid;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#showed > div {
+  border: 0px rgb(212, 32, 32) solid;
+}
+#TwoImage {
+  flex: 1.8;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#AllDetailDiv {
+  flex: 1;
+}
+#TwoImage > img {
+  width: 50%;
+}
+#AllDetailDiv {
+  line-height: 3px;
+}
+#brand {
+  font-size: 15px;
+}
+#price {
+  color: #da363d;
+}
+#SizeSelect ,#ColorSelect{
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+  width: 80%;
+  border: 0.05px rgb(225, 222, 222) solid;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+#AvailableColors{
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: left;
+}
+#smallColorDiv{
+	width: 20px;
+	height: 20px;
+	border: rgb(65, 63, 63) 1px solid;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+#AddToCartButton{
+	padding: 10px;
+	background-color: #000000;
+	color: white;
+	width: 80%;
+	margin-top: 5%;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Gill Sans';
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+#AddToCartButton:hover{
+	background-color: #444141;
+	transition: 0.2s;
+}
