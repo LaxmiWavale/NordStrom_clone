@@ -1,5 +1,5 @@
-function navbar(){
-    return `        <div id="navbar1">
+function navbar() {
+  return `        <div id="navbar1">
     <a href="index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
        <div id="input">
        <input  type="text" id="search" placeholder="Seacrh for products or brands">
@@ -946,8 +946,7 @@ function navbar(){
                </div>
            </ul>
          </div>
-   </div>`
+   </div>`;
 }
 
-
-export {navbar}
+export { navbar };

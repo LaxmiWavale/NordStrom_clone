@@ -43,7 +43,7 @@ function ClothMap(url) {
         window.location.href = "../../SelectedItem/ViewSelected.html";
       });
 
-      let title = document.createElement("h5");
+      let title = document.createElement("p");
       title.innerText = e.title;
       title.setAttribute("id", "titleOfCloth");
 

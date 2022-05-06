@@ -1,11 +1,17 @@
 * {
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   /* font-family: "Brandon Text"; */
 }
 body {
   background-color: #ffffff;
   padding: 1.7%;
+}
+#span{
+  margin-top: 60px;
+}
+#WomenClothDiv{
+  margin-top: 4%;
 }
 #Home {
   text-decoration: none;
@@ -85,6 +91,7 @@ body {
 #DTJ {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 50px;
 }
 #DTJ > div {
   color: #434141;
@@ -108,11 +115,13 @@ body {
 }
 #ClothMap {
   border: 0px rgb(121, 35, 35) solid;
-  margin-top: 5.5%;
+  /* margin-top: 5.5%; */
 }
 #WomenClothing {
   color: #434141;
   font-size: 19px;
+  font-weight: bold;
+  
 }
 #sort {
   justify-content: space-between;
@@ -120,12 +129,17 @@ body {
   height: 29px;
   text-align: center;
   align-items: center;
-  margin-top: -17px;
 }
 #sort > p {
   color: #434141;
   font-size: 18px;
+  margin-top: 20px;
 }
+/* #TotalItems{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} */
 #SelectTag {
   width: 320px;
   padding: 7px;
@@ -155,7 +169,7 @@ body {
 #smallClothDiv {
   border: 0px rgb(121, 35, 35) solid;
   height: 550px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   cursor: pointer;
 }
 #ClothPic {
@@ -167,6 +181,8 @@ body {
 
 #titleOfCloth {
   margin-top: 3px;
+font-weight: bold;
+color: #434141;
 }
 #peise {
   font-size: 15px;
@@ -178,6 +194,8 @@ body {
 	flex-direction: row;
 	text-align: center;
 	align-items: center;
+  margin-top: -8px;
+  margin-bottom: 5px;
 }
 #smallColorDiv{
 	width: 20px;
@@ -194,6 +212,7 @@ body {
 #category {
   font-size: 13px;
   color: #a02fdc;
+  margin-top: -15px;
 }
 #Dissappering {
   border: 1px #dedada solid;
