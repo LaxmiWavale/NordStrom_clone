@@ -22,7 +22,7 @@
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    /* margin: 0px 5%; */
+    
 }
 
 
@@ -32,7 +32,7 @@
     /* border: 1px solid red; */
     width: 15%;
     height: 900px;
-    /* overflow: scroll; */
+    
 }
 
 
@@ -115,7 +115,7 @@
 #append_items_sd{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-     grid-template-rows: repeat(auto,548px);   /*548 */
+     grid-template-rows: repeat(auto,548px);   
     gap: 10px;
 }
 
@@ -151,7 +151,6 @@
     justify-content: space-between;
     padding-bottom: 20px;
     padding-top: 10px;
-    
     
 }
 
@@ -227,3 +226,39 @@
     font-size: 17px;
     
 }
+
+
+
+/* Apper box  */
+
+#apperBox_sd{
+    border: 1px solid gray;
+    width: 99%;
+    height: 50px;
+    margin-top: -22%;
+    position: relative;
+    visibility: hidden;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+     
+}
+#appertxt_sd{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 12.50px;
+    
+    
+}
+
+#imgBox_id:hover #apperBox_sd  {
+
+    visibility: visible;
+
+}
+
+#apperBox_sd:hover{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+

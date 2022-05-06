@@ -3,12 +3,7 @@
 const url= `https://www2.hm.com/en_in/men/shop-by-product/shoes/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=stillLife`
 
 
-const bag_url= `https://www2.hm.com/en_in/men/shop-by-product/accessories/_jcr_content/main/productlisting.display.json?sort=stock&productTypes=Bag&image-size=small&image=stillLife`
-
-const shoes_url = `https://www2.hm.com/en_in/men/shop-by-product/shoes/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=stillLife&offset=36&page-size=36`
-
-
-// sorting activeware urls 
+// sorting boots urls 
 
 const lth_url = `https://www2.hm.com/en_in/men/shop-by-product/shoes/_jcr_content/main/productlisting.display.json?sort=ascPrice&image-size=small&image=stillLife`
 
@@ -19,13 +14,12 @@ const new_url = `https://www2.hm.com/en_in/men/shop-by-product/shoes/_jcr_conten
 
 
 
-
-
-
-// Import activewar components
+// Import boots components
 import {colourSection} from '../../../components/activeware_comp.js'
 
 import {user_rating} from '../../../components/activeware_comp.js'
+
+import {apperBox} from '../../../components/activeware_comp.js'
 
 // Import Navbar 
 import {navbar} from '../../../../NavbarUpdate/components/navbar.js'
@@ -40,18 +34,14 @@ document.getElementById("footer_sd").innerHTML = footer();
 
 
 
-
-
-
 async function activewareData(){
 
     try{
         const res = await fetch(url);
 
         const data = await res.json();
-        // console.log(data.products)
+    
         appendData(data.products)
-
 
     }
     catch(err){
@@ -66,7 +56,7 @@ activewareData()
 let results = document.getElementById("append_items_sd");
 
 function appendData(data){
-    // console.log(data)
+    
     results.innerHTML ="";
 
     data.forEach( function(elem){
@@ -74,15 +64,22 @@ function appendData(data){
     let box = document.createElement("div");
     box.setAttribute("id","box_active")
 
+    let imgBox_div_sd = document.createElement("div")
+    imgBox_div_sd.setAttribute("id","imgBox_id")
+
 
     let img = document.createElement("img");
     img.setAttribute("id","img_active")
     img.src= elem.image[0].src
 
+    let apperBox_div = document.createElement("div");
+    apperBox_div.setAttribute("id","apperBox")
+    apperBox_div.innerHTML = apperBox();
+
     let colo = document.createElement("div");
     colo.setAttribute("id","colo_sd")
     colo.innerHTML = colourSection();
-    // console.log(colo)
+    
 
     let title = document.createElement("p");
     title.setAttribute("id","tit_active")
@@ -95,7 +92,9 @@ function appendData(data){
     let user_rat = document.createElement("div");
     user_rat.innerHTML = user_rating();
 
-    box.append(img,colo,title,price,user_rat);
+    imgBox_div_sd.append(img, apperBox_div)
+
+    box.append(imgBox_div_sd,colo,title,price,user_rat);
 
     results.append(box);
 
@@ -105,7 +104,7 @@ function appendData(data){
 }
 
 
-// Sorting activeware 
+// Sorting boots
 
 // low to high price fetch call 
 async function sortingDatalth(){
@@ -114,7 +113,7 @@ async function sortingDatalth(){
         
         const res = await fetch(lth_url);
         const data = await res.json()
-        // console.log(data.products)
+
         appendData(data.products)
 
 
@@ -131,7 +130,6 @@ async function sortingDatahtl(){
         
         const res = await fetch(htl_url);
         const data = await res.json()
-        // console.log(data.products)
         appendData(data.products)
 
 
@@ -149,7 +147,6 @@ async function sortingDatanew(){
         
         const res = await fetch(new_url);
         const data = await res.json()
-        // console.log(data.products)
         appendData(data.products)
 
 
@@ -163,20 +160,12 @@ async function sortingDatanew(){
 
 // sortingData()
 
-
-
-
-
-
  document.getElementById("sort_opt").addEventListener("change",sortItems);
-//  document.getElementById("sort_opt").addEventListener("change",sortingData);
+
 
 function sortItems(){
 
-    
-    
     let select = document.getElementById("sort_opt").value;
-    // console.log(select)
     
     if(select == "lth"){
      

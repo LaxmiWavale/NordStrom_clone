@@ -26,3 +26,9 @@ function user_rating(){
 }
 
 export {user_rating}
+
+function apperBox(){
+    return ` <div id="apperBox_sd"><p id="appertxt_sd">Quick View</p></div>`
+}
+
+export {apperBox}

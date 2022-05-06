@@ -22,7 +22,7 @@
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-    /* margin: 0px 5%; */
+    
 }
 
 
@@ -32,18 +32,16 @@
     /* border: 1px solid red; */
     width: 15%;
     height: 650px;
-    /* overflow: scroll; */
 }
 
 
 .bi-plus-lg{
 
-    font-size: 20px;
+    font-size: 17px;
 }
 #sidebar h3{
     display: flex;
     justify-content: space-between;
-    /* margin: 20px 0px; */
     padding: 20px 0px;
     border-top:  0.50px solid gray;
     border-bottom: 0px solid gray;
@@ -51,7 +49,7 @@
     
 }
 
-  /* activeware items  */
+  /* Kids activeware items  */
 
 
 #act_items{
@@ -85,8 +83,6 @@
 #sub_menu_sd h3:hover{
     border-bottom: 3px solid black;
 }
-
-
 
 
 #hr_sd{
@@ -154,8 +150,7 @@
     justify-content: space-between;
     padding-bottom: 20px;
     padding-top: 10px;
-    
-    
+      
 }
 
 
@@ -230,3 +225,39 @@
     font-size: 17px;
     
 }
+
+
+
+/* Apper box  */
+
+#apperBox_sd{
+    border: 1px solid gray;
+    width: 99%;
+    height: 50px;
+    margin-top: -22%;
+    position: relative;
+    visibility: hidden;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    
+}
+#appertxt_sd{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 12.50px;
+    
+}
+
+#imgBox_id:hover #apperBox_sd  {
+
+    visibility: visible;
+
+}
+
+#apperBox_sd:hover{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+
