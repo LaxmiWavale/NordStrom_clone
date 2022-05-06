@@ -11,6 +11,7 @@
     height: 100%;
     padding-left: 10px;
     /* border: 1px solid black; */
+    margin-left: 20px;
 }
 #img{
     width: 100%;
@@ -114,12 +115,13 @@
 }
 
 #box1{
-    width: 1200px;
+    width: 1500px;
     /* border: 1px solid black; */
     height:max-content;
     transition: 0.3s;
     padding-left: 25px;
     padding-right: 50px;
+   
     /* margin-left: -120px; */
 }
 #main_sales{
@@ -127,10 +129,15 @@
     /* border: 1px solid red; */
     display: flex;
     gap: 30px;
+    margin-top: 30px;
+}
+.class{
+  margin-left: 150px;
 }
 #sales{
     width: 300px;
     height: max-content;
+    
     /* border: 1px solid red; */
 }
 #sales1{
@@ -208,31 +215,37 @@ b:hover{
     
 }
 .box3{
-    margin-left: -1100px;
+    margin-left: -1335px;
 }
 .box4{
-    margin-left: -1000px;
+    margin-left: -1230px;
 }
 .box5{
-    margin-left: -880px;
+    margin-left: -1095px;
 }
 .box6{
-    margin-left: -780px;
+    margin-left: -980px;
 }
 .box7{
-    margin-left: -680px;
+    margin-left: -868px;
 }
 .box8{
-    margin-left: -580px;
+    margin-left: -717px;
 }
 .box9{
-    margin-left: -480px;
+    margin-left: -560px;
 }
 .box10{
-    margin-left: -380px;
+    margin-left: -460px;
 }
 .box11{
-    margin-left: -280px;
+    margin-left: -350px;
+}
+.box12{
+    margin-left: -215px;
+}
+.box13{
+    margin-left: -110px;
 }
 .saleimg{
     margin-top: 40px;
