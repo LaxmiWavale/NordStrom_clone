@@ -2,7 +2,7 @@ function navbar(){
     return `        <div id="navbar1">
     <a href="index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
        <div id="input">
-       <input  type="text" id="search" placeholder="Seacrh for products or brands">
+       <input   type="text" id="search" placeholder="Seacrh for products or brands">
        <span id="i1"><i  class="fa-solid fa-magnifying-glass"></i></span>
        </div>
        <div id="main">

@@ -6,6 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 .heading{
+    letter-spacing: 5px;
     margin-top: 5%;
     text-align: center;
     font-size: 24px;
@@ -625,7 +626,7 @@ hr{
 
 #eleventh{
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 
 #eleventh a{
@@ -648,4 +649,64 @@ hr{
     color: black;
     text-align: center;
     font-weight: bold;
+}
+
+
+/* ======================================================================== */
+/* ======================================================================== */
+#twelve{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10%;
+}
+.twelvep{
+    font-size: 14px;
+    text-align: center;
+    margin-top: -2%;
+}
+#twelveDiv{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.twelveflex{
+    width: 98%;
+    display: flex;
+}
+
+.tdDiv{
+  position: relative;
+  margin: 0 5px 0 5px;
+}
+
+.tdDiv div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+}
+
+.tdDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.tdDiv img:hover{
+    opacity: 0.3;
+}
+
+#twelvebtn{
+    background: none;
+    border: none;
+   padding: 8px 12px;
+   color: white;
+   font-size: 18px;
+   z-index: 3;
 }
