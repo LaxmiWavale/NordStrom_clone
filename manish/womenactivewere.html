@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* body{
+            font-family: 'Poppins', sans-serif;
+        } */
+      #m1 {
+        display: flex;
+        /* border: 1px solid red; */
+      }
+      #m1a {
+        /* border: 1px solid green; */
+        width: auto;
+        position: fixed;
+        top: 33px;
+      }
+      #m1a div {
+        display: flex;
+        justify-content: space-between;
+      }
+      #s {
+        text-align: center;
+        font-family: sans-serif;
+      }
+      #d {
+        margin-top: -20px;
+      }
+      #d1 {
+        display: flex;
+        gap: 50px;
+        margin-top: -20px;
+      }
+      #d1 > p {
+        text-decoration: underline;
+        cursor: pointer;
+        font-family: sans-serif;
+        margin-left: 70px;
+      }
+      #d2 {
+        display: flex;
+        justify-content: end;
+        margin-top: -80px;
+        padding: 20px;
+      }
+      #d2 > select {
+        padding: 5px;
+        width: 230px;
+      }
+      #plus {
+        padding-left: 100px;
+        font-size: larger;
+        cursor: pointer;
+      }
+      #hr1 {
+        width: 200px;
+        margin: auto;
+        margin-left: -1px;
+      }
+      #m1b {
+        /* border: 1px solid yellow; */
+        width: auto;
+        margin-left: 210px;
+      }
+      #im1 {
+        width: 1000px;
+        height: 330px;
+        margin-left: 70px;
+      }
+      #d3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+      #catplus{
+          cursor: pointer;
+      }
+      #ho{
+          display: none;
+          line-height: 30px;
+      }
+      ul{
+        list-style: none;
+      }
+      #catminus
+      {
+        /* display: none; */
+        position: absolute;
+        left: 190px ;
+        top: -4px;
+        cursor: pointer;
+      }
+      #genplus
+      {
+        cursor: pointer;
+        position:absolute;
+        top: 5px;
+        left: 190px;
+      }
+      #genminus
+      {
+        cursor: pointer;
+        
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <p style="color: grey">Home / Activewear / Women's Activewear</p>
+
+    <div id="m1">
+      <div id="m1a">
+        <hr id="hr1" />
+        <div style="position: relative;">
+          <h3>Category</h3>
+          <h2 id="catplus"  onclick="discat1() ">+</h2>
+          <h2 id="catminus" onclick="discat2()">-</h2>
+
+        </div>
+        <div>
+          <ul id="ho">
+            <li>Dresses & Skirts</li>
+            <li>Jackets</li>
+            <li>Jackets</li>
+            <li>Jackets</li>
+            <li>Jackets</li>
+          </ul>
+        </div>
+        
+        <hr id="hr1" />
+        <div  style="position:relative">
+          <h3>Gender</h3>
+          <h2 id="genplus" onclick="gendisp()">+</h2>
+          <h2 id="genminus" onclick="gendisp1()">-</h2>
+
+        </div>
+        <div>
+            <ul id="ho1" style="display: none; list-style-type: none; cursor: pointer;" >
+               <li> <input type="checkbox">men</li>
+                <li><input type="checkbox">women</li>
+                <li> <input type="checkbox">unisex</li>
+               
+            </ul>
+        </div>
+        <hr id="hr1" />
+        <div>
+          <h3>Size</h3>
+          <h2>+</h2>
+        </div>
+        <hr id="hr1" />
+        <div>
+          <h3>Color</h3>
+          <h2>+</h2>
+        </div>
+        <hr id="hr1" />
+        <div>
+          <h3>Brand</h3>
+          <h2>+</h2>
+        </div>
+        <hr id="hr1" />
+        <div>
+          <h3>Category</h3>
+          <h2>+</h2>
+        </div>
+        <hr id="hr1" />
+        <div>
+          <h3>Feature</h3>
+          <h2>+</h2>
+        </div>
+        <hr id="hr1" />
+        <div>
+          <h3>Fit</h3>
+          <h2 style="cursor: pointer;">+</h2>
+        </div>
+        <div>
+          <h3>Fit</h3>
+          <h2>+</h2>
+
+        </div>
+        <div>
+          <h3>Fit</h3>
+          <h2>+</h2>
+        </div>
+        <div>
+          <h3>Fit</h3>
+          <h2>+</h2>
+        </div>
+        <div>
+          <h3>Fit</h3>
+          <h2>+</h2>
+        </div>
+      </div>
+
+      <div id="m1b">
+        <h2 id="s">For Spring Workouts & Hangouts</h2>
+
+        <div id="d">
+          <img
+            src="https://n.nordstrommedia.com/id/0f846f2e-d5ae-436e-b5dd-4268eb308b34.jpeg?h=417&w=1334"
+            id="im1"
+          />
+          <div id="d1">
+            <p>Shirts & Tanks</p>
+            <p>Leggings</p>
+            <p>Jackets</p>
+            <p>Joggers & Sweatpants</p>
+            <p>Sweatshirts & Hoodies</p>
+          </div>
+        </div>
+        <h2 style="margin-left: 70px;">Women's Athletic Clothing</h2>
+        <h3 style="margin-left: 70px; font-family: sans-serif; font-size: 16px;">7703 items</h3>
+        <div id="d2">
+          <select id="sortname">
+            <option>Sort By Featured</option>
+            <option>Sort By Price:High To Low</option>
+            <option>Sort By Price:Low To High</option>
+            <option>Sort By Newest</option>
+          </select>
+        </div>
+        <div id="d3"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+
+    
+        
+       
+     
+    
+    let discat1  =()=>{
+        document.getElementById("ho").style.display="block";
+        document.getElementById("catplus").style.display="none";
+        document.getElementById("catminus").style.display="block";
+     
+    }
+    let discat2  =()=>{
+        let cat = document.getElementById("ho").style.display="none";
+        document.getElementById("catplus").style.display="block";
+        document.getElementById("catminus").style.display="none";
+     
+    }
+    function gendisp()
+    {
+      document.getElementById("ho1").style.display="block";
+      document.getElementById("genplus").style.display="none"
+      document.getElementById("genminus").style.display="block"
+
+
+    }
+
+    function gendisp1()
+    {
+      document.getElementById("ho1").style.display="none";
+      document.getElementById("genplus").style.display="block"
+      document.getElementById("genminus").style.display="none"
+
+
+    }
+    document.querySelector("#sortname").addEventListener("change",sorting)
+    function sorting()
+    {
+      var selection=document.querySelector("#sortname").value
+      console.log(selection)
+    if(selection=="Sort By Price:High To Low")
+    {
+        
+        womenactive.sort(function(a,b)
+        {
+           return b.text2-a.text2
+        })
+        console.log(womenactive)
+        displaydata(womenactive)
+
+    }
+    if(selection=="Sort By Price:Low To High")
+    {
+        womenactive.sort(function(a,b)
+        {
+           return a.text2-b.text2
+        })
+        console.log(womenactive)
+        displaydata(womenactive)
+
+    }
+    }
+  var womenactive = [
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/a330d0a3-3ec8-4855-994f-e4649153b242.jpeg?h=365&w=240&dpr=2",
+      text: "Zella",
+      text1:"Live In Pocket Joggers",
+      text2: 5338.36
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/18eebb3f-3b6d-4936-9e65-3c742c7db1c8.jpeg?h=365&w=240&dpr=2",
+      text: "New Markdown",
+      text1:"Crop Ribbed Tank",
+      text2: 624.18
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/ee29c0a1-326e-47f1-ba35-40bc0bfad621.jpeg?h=365&w=240&dpr=2",
+      text: "Zella",
+      text1:"Live In High Waist Leggings",
+      text2: 4845.59
+
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/2b6113dd-f580-460b-b2e9-849c4b42cf39.jpeg?h=365&w=240&dpr=2",
+      text: "SPANX®",
+      text1:"SPANX® Longline Medium Impact Sports Bra"
+      ,text2: 5584.74
+
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/d38ca1e4-a038-4241-bdce-32fddbb14327.jpeg?h=365&w=240&dpr=2",
+      text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2: 3203.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/532f599c-3846-476d-a41f-7863625b22fa.jpeg?h=365&w=240&dpr=2",
+      text: "vuori",
+      text1:"Halo Performance Zip Front Hoodie",
+      text2: 7309.45
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/65f031ff-7063-4ac1-8f63-c0a294769c57.jpeg?h=365&w=240&dpr=2",
+        text: "vuori",
+      text1:"Halo Performance Zip Front Hoodie",
+      text2: 7309.45
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/2957619e-4347-4937-8f45-bd17c8ea01a0.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2: 3603.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/bf16bf80-cbd0-41f7-9c9e-87d9942d1065.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2:303.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/afa33a59-6c68-48f7-b7e5-93c108595641.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2: 323.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/4f350f3c-16c4-4750-a20e-11c38fcc20ef.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2: 3203.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/acd17df2-2b3b-42c3-9dcf-be6bb94227b7.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2: 203.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/afd04713-89c6-496f-8777-8bb66fd34bca.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful KnotT-Shirt",
+      text2: 2203.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/8c7205a7-a3a5-44e5-a8e7-7a7bec97010e.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2: 1203.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/25a13584-8485-4585-a472-519b80ee6922.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2:5203.02
+    },
+    {
+      images:
+        "https://n.nordstrommedia.com/id/sr3/f014a251-f86e-44cc-a27f-54b45384d520.jpeg?h=365&w=240&dpr=2",
+        text: "Zella",
+      text1:"Peaceful Knot T-Shirt",
+      text2:4203.02
+    },
+  ];
+
+  displaydata(womenactive)
+
+  function displaydata(womenactive)
+  {
+      document.querySelector("#d3").innerHTML=""
+  womenactive.map(function (el) {
+    let d1 = document.createElement("div");
+    let i1 = document.createElement("img");
+    i1.src = el.images;
+    i1.style.height = "350px";
+    i1.style.width = "250px";
+    let p1 = document.createElement("p");
+    p1.innerText = el.text;
+    p1.style.fontSize = "20px";
+    let p2 = document.createElement("p");
+    p2.innerText = el.text1;
+    p2.style.fontSize = "18px";
+    let p3 = document.createElement("p");
+    p3.innerText = "INR  " + el.text2;
+    p3.style.fontSize = "18px";
+    p3.style.color="red"
+    
+    d1.append(i1, p1,p2,p3);
+    let s2 = document.querySelector("#d3");
+    s2.append(d1);
+  });
+}
+</script>
+
