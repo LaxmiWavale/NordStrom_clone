@@ -26,6 +26,10 @@ import {colourSection} from '../../components/activeware_comp.js'
 
 import {user_rating} from '../../components/activeware_comp.js'
 
+import { navbar } from "../../../NavbarUpdate/components/navbar.js";
+
+document.getElementById("navbar_sd").innerHTML = navbar()
+
 
 
 
