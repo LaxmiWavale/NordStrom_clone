@@ -1,8 +1,8 @@
-import { navbar } from "../../../NavbarUpdate/components/navbar.js";
+import { navbar } from "./navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
-import {footer} from "../../../Sukhdev/footer/footer.js";
+import {footer} from "./footer.js";
 
 document.getElementById('btmnavbar').innerHTML = footer();
 
@@ -15,7 +15,7 @@ window.addEventListener("load", function () {
   ClothMap(Clothurl);
 });
 
-import ClothMap from "../component/womenDataMap.js";
+import ClothMap from "./womenDataMap.js";
 
 //===========================Desses Map============================================
 function makingEmpty(name, SingleImage) {

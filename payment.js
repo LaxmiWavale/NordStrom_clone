@@ -49,5 +49,5 @@ function Final() {
 }
 
 function GoBack() {
-  window.location.href = "../BagView/bagView.html";
+  window.location.href = "./bagView.html";
 }

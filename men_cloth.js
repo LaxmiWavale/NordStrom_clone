@@ -1,5 +1,9 @@
-import {navbar} from "../../NavbarUpdate/components/navbar.js"
-document.querySelector("#c1").innerHTML=navbar()
+import {navbar} from "./navbar.js"
+document.querySelector("#c1").innerHTML=navbar();
+
+import {footer} from "./footer.js";
+
+document.getElementById('btmnavbar').innerHTML = footer();
 
 document.querySelector("#xm9").addEventListener("click",catplus1)
 function catplus1()

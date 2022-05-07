@@ -15,19 +15,19 @@ const new_url = `https://www2.hm.com/en_in/men/shop-by-product/shoes/_jcr_conten
 
 
 // Import boots components
-import {colourSection} from '../../../components/activeware_comp.js'
+import {colourSection} from './activeware_comp.js'
 
-import {user_rating} from '../../../components/activeware_comp.js'
+import {user_rating} from './activeware_comp.js'
 
-import {apperBox} from '../../../components/activeware_comp.js'
+import {apperBox} from './activeware_comp.js'
 
 // Import Navbar 
-import {navbar} from '../../../../NavbarUpdate/components/navbar.js'
+import {navbar} from './navbar.js'
 
 document.getElementById("navbar_sd").innerHTML= navbar();
 
 // Import footer
-import {footer} from '../../../footer/footer.js'
+import {footer} from './footer.js'
 
 document.getElementById("footer_sd").innerHTML = footer();
 

@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 let firstA = document.getElementById('first');
 
 setInterval(myfunc,3000);
@@ -319,7 +313,7 @@ popular.forEach(function(el){
 })
 
 function gotoMens(){
-    window.location.href = "sample.html";
+    window.location.href = "./men.html";
 }
 
 
@@ -591,5 +585,5 @@ trendingForladies.forEach(function(el){
 })
 
 function gotoWomens(){
-    window.location.href = "sample.html";
+    window.location.href = "./womes's_page.html";
 }

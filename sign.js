@@ -1,8 +1,8 @@
-import { navbar } from "../components/navbar.js";
+import { navbar } from "./navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
-import {footer} from "../../Sukhdev/footer/footer.js";
+import {footer} from "./footer.js";
 
 document.getElementById('btmnavbar').innerHTML = footer();
 
@@ -30,7 +30,7 @@ function myLogin(){
    })
   if(flag == 1){
       alert("Go to Login")
-      window.location.href = "login.html"
+      window.location.href = "./login.html"
   }
   else{
       if(flag1 == 1){
@@ -40,7 +40,7 @@ function myLogin(){
           alert("SignUp Successfull")
           arr.push(mySign)
           localStorage.setItem("regst", JSON.stringify(arr))
-          window.location.href = "sign1.html"
+          window.location.href = "./sign1.html"
       }
   }
 }

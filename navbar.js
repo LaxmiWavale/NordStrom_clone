@@ -1,6 +1,6 @@
 function navbar(){
     return `        <div id="navbar1">
-    <a href="../../homepage/index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
+    <a href="./index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
        <div id="input">
        <input   type="text" id="search" placeholder="Seacrh for products or brands">
        <span id="i1"><i  class="fa-solid fa-magnifying-glass"></i></span>
@@ -11,7 +11,7 @@ function navbar(){
                 Sign In
                </button>
                <div id="box" >
-                 <a href="../NavbarUpdate/sign.html"> <button id="btn">Sign In | Create Account</button></a> 
+                 <a href="./sign.html"> <button id="btn">Sign In | Create Account</button></a> 
                   <h6 class="h6">Your Account</h6>
                   <p class="p"><i id="i" class="fa-solid fa-bag-shopping"></i>Purchase</p>
                   <p class="p"><i id="i" class="fa-solid fa-heart"></i>Wish List</p>
@@ -30,7 +30,7 @@ function navbar(){
                   <p class="p">Contact Us</p>
                </div>
              </div>
-          <a href="../../NORD_STROM_UNIT_3/BagView/bagView.html"><div id="cart"><img id="imgg" src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt=""> </div></a> 
+          <a href="./bagView.html"><div id="cart"><img id="imgg" src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt=""> </div></a> 
        </div>
    </div>
    <hr>
@@ -146,7 +146,7 @@ function navbar(){
 
                    </div>
                    <div id="sales1">
-                       <a href="../NORD_STROM_UNIT_3/women_Page/womes's_page.html"><b>Clothing</b></a>
+                       <a href="./womes's_page.html"><b>Clothing</b></a>
                       <a href="" class="p1"><p>Activewear</p></a> 
                      <a href="" class="p1"> <p>Blazers</p></a> 
                      <a href="" class="p1"><p>Coats & Jackets</p></a>  
@@ -244,7 +244,7 @@ function navbar(){
 
                    </div>
                    <div id="sales1">
-                       <a href ="../../Sukhdev/men/html_files/men.html"<b>Clothing</b></a>
+                       <a href ="./men.html"<b>Clothing</b></a>
                       <a href="" class="p1"><p>Activewear</p></a> 
                      <a href="" class="p1"> <p>Blazers & Sport Coats</p></a> 
                      <a href="" class="p1"><p>Coats & Jackets</p></a>  

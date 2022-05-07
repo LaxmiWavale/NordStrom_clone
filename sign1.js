@@ -1,8 +1,8 @@
-import { navbar } from "../components/navbar.js";
+import { navbar } from "./navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
-import {footer} from "../../Sukhdev/footer/footer.js";
+import {footer} from "./footer.js";
 
 document.getElementById('btmnavbar').innerHTML = footer();
 
@@ -37,6 +37,6 @@ function myLogin2(){
         arr1.push(myObj1)
 
         localStorage.setItem("Account1",JSON.stringify(arr1))
-        window.location.href = "signin2.html"
+        window.location.href = "./signin2.html"
      }
 }

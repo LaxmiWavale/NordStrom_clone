@@ -148,11 +148,12 @@
 #color_sd{
     /* border: 1px solid red; */
     width: 150px;
-    height: 24px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
     padding-top: 10px;
+    margin-top: 5%;
       
 }
 

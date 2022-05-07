@@ -21,7 +21,7 @@ function Final() {
     Code !== "" 
   ){
     alert("Order Placed");
-    window.location.href = "../women_Page/womes's_page.html";
+    window.location.href = "./womes's_page.html";
   }else{
     alert("Please Fill required Details");
   }

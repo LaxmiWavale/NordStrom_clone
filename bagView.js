@@ -1,8 +1,8 @@
-import { navbar } from "../../NavbarUpdate/components/navbar.js";
+import { navbar } from "./navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
-import {footer} from "../../Sukhdev/footer/footer.js";
+import {footer} from "./footer.js";
 
 document.getElementById('btmnavbar').innerHTML = footer();
 
@@ -139,7 +139,7 @@ document.querySelector("#Check").addEventListener("click",function(){
   GoToPayment() 
 })
 function GoToPayment() {
-  window.location.href = "../payment/payment.html";
+  window.location.href = "./payment.html";
 }
 
 document.addEventListener("keydown", SearchCategory);
@@ -147,7 +147,7 @@ document.addEventListener("keydown", SearchCategory);
 function SearchCategory(e) {
   if (e.key == "Enter") {
     let Keyword = document.querySelector("#search").value;
-    window.location.href="../women_Page/womes's_page.html"
+    window.location.href="./womes's_page.html"
     let link = `https://www2.hm.com/en_in/women/shop-by-product/${Keyword}/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36`;
     // document.querySelector("#Pickone").innerHTML = null;
     ClothMap(link);

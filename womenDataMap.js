@@ -28,7 +28,7 @@ function ClothMap(url) {
       box.setAttribute("id", "smallClothDiv");
       box.addEventListener("click", function () {
         localStorage.setItem("Selected", JSON.stringify(e));
-        window.location.href = "../SelectedItem/ViewSelected.html";
+        window.location.href = "./ViewSelected.html";
       });
 
       let pic = document.createElement("img");
@@ -40,7 +40,7 @@ function ClothMap(url) {
       Dissappering.innerText = "Quick View";
       Dissappering.addEventListener("click", function (e) {
         localStorage.setItem("Selected", JSON.stringify(e));
-        window.location.href = "../../SelectedItem/ViewSelected.html";
+        window.location.href = "./ViewSelected.html";
       });
 
       let title = document.createElement("p");
