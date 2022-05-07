@@ -1,4 +1,4 @@
-
+// const CORS = `https://cors-anywhere.herokuapp.com/`
 
 const url= `https://www2.hm.com/en_in/men/new-arrivals/shoes-accessories/_jcr_content/main/productlisting.display.json?sort=stock&productTypes=Bag&image-size=small&image=model`
 
@@ -22,7 +22,7 @@ document.getElementById("navbar_sd").innerHTML = navbar();
 
 // Import footer 
 
-import {footer} from '../../../footer/footercompo.js'
+import {footer} from '../../../footer/footer.js '
 document.getElementById("footer_sd").innerHTML = footer();
 
 

@@ -1,4 +1,4 @@
-
+// const CORS = `https://cors-anywhere.herokuapp.com/`
 
 const url= `https://www2.hm.com/en_in/men/shop-by-product/tshirts-tank-tops/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=72&page-size=36`
 
@@ -34,7 +34,7 @@ document.getElementById("navbar_sd").innerHTML = navbar()
 
 // Import footer 
 
-import {footer} from '../../footer/footercompo.js'
+import {footer} from '../../footer/footer.js'
 document.getElementById("footer_sd").innerHTML= footer();
 
 

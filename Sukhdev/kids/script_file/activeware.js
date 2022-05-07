@@ -1,4 +1,5 @@
 
+// const CORS = `https://cors-anywhere.herokuapp.com/`
 
 const url= `https://www2.hm.com/en_in/kids/boys/new-arrivals/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=stillLife`
 
@@ -30,7 +31,7 @@ import {navbar} from '../../../NavbarUpdate/components/navbar.js'
 document.getElementById("navbar_sd").innerHTML = navbar();
 
 // Import footer 
-import {footer} from '../../footer/footercompo.js'
+import {footer} from '../../footer/footer.js'
 document.getElementById("footer_sd").innerHTML = footer()
 
 

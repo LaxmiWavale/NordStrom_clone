@@ -238,7 +238,7 @@
     margin-top: -22%;
     position: relative;
     visibility: hidden;
-    background-color: transparent;
+    background-color: aliceblue;
     text-align: center;
     color: black;
      
@@ -258,7 +258,7 @@
 }
 
 #apperBox_sd:hover{
-    background-color: aliceblue;
+
     border: 1px solid black;
 }
 
