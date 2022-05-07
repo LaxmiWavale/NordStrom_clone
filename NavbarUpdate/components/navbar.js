@@ -244,7 +244,7 @@ function navbar(){
 
                    </div>
                    <div id="sales1">
-                       <b>Clothing</b>
+                       <a href ="../../Sukhdev/men/html_files/men.html"<b>Clothing</b></a>
                       <a href="" class="p1"><p>Activewear</p></a> 
                      <a href="" class="p1"> <p>Blazers & Sport Coats</p></a> 
                      <a href="" class="p1"><p>Coats & Jackets</p></a>  
