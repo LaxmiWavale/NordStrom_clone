@@ -28,7 +28,7 @@ function ClothMap(url) {
       box.setAttribute("id", "smallClothDiv");
       box.addEventListener("click", function () {
         localStorage.setItem("Selected", JSON.stringify(e));
-        window.location.href = "../../SelectedItem/ViewSelected.html";
+        window.location.href = "../SelectedItem/ViewSelected.html";
       });
 
       let pic = document.createElement("img");
