@@ -115,8 +115,8 @@
 }
 
 #box1{
-    width: 1500px;
-    /* border: 1px solid black; */
+    width: 1300px;
+    border: 1px solid black;
     height:max-content;
     transition: 0.3s;
     padding-left: 25px;
@@ -215,7 +215,7 @@ b:hover{
     
 }
 .box3{
-    margin-left: -1335px;
+    margin-left: -12px;
 }
 .box4{
     margin-left: -1230px;
@@ -242,7 +242,7 @@ b:hover{
     margin-left: -350px;
 }
 .box12{
-    margin-left: -215px;
+    margin-left: 5px;
 }
 .box13{
     margin-left: -110px;
