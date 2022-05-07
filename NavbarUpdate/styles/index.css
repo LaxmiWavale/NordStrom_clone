@@ -11,6 +11,7 @@
     height: 100%;
     padding-left: 10px;
     /* border: 1px solid black; */
+    margin-left: 20px;
 }
 #img{
     width: 100%;
@@ -82,8 +83,10 @@
     cursor: pointer;
     text-decoration: underline;
 }
+
 #menu{
     width: 85%;
+    height: max-content;
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
@@ -114,23 +117,31 @@
 }
 
 #box1{
-    width: 1200px;
+    width: 100%;
     /* border: 1px solid black; */
     height:max-content;
     transition: 0.3s;
     padding-left: 25px;
     padding-right: 50px;
+    left: 0;
+    right: 0;
     /* margin-left: -120px; */
 }
 #main_sales{
     width: 100%;
     /* border: 1px solid red; */
     display: flex;
+   
     gap: 30px;
+    margin-top: 30px;
+}
+.class{
+  margin-left: 150px;
 }
 #sales{
     width: 300px;
     height: max-content;
+    
     /* border: 1px solid red; */
 }
 #sales1{
@@ -173,9 +184,10 @@ b:hover{
     text-decoration: underline;
 }
 #box2{
-    position: relative;
+    position: static;
 }
 #box1{
+   
     visibility: hidden;
     position: absolute;
     opacity: 0;
@@ -206,33 +218,6 @@ b:hover{
     visibility: visible;
     opacity: 1;
     
-}
-.box3{
-    margin-left: -1100px;
-}
-.box4{
-    margin-left: -1000px;
-}
-.box5{
-    margin-left: -880px;
-}
-.box6{
-    margin-left: -780px;
-}
-.box7{
-    margin-left: -680px;
-}
-.box8{
-    margin-left: -580px;
-}
-.box9{
-    margin-left: -480px;
-}
-.box10{
-    margin-left: -380px;
-}
-.box11{
-    margin-left: -280px;
 }
 .saleimg{
     margin-top: 40px;
