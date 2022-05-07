@@ -22,7 +22,7 @@ document.getElementById("navbar_sd").innerHTML = navbar();
 
 // Import footer 
 
-import {footer} from '../../../footer/footercompo.js'
+import {footer} from '../../../footer/footer.js'
 document.getElementById("footer_sd").innerHTML = footer();
 
 

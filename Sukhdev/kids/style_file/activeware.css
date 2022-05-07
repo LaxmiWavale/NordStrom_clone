@@ -10,11 +10,14 @@
 #location_sd{
     display: flex;
     align-items: center;
-}
-#location_sd p{
     /* border: 1px solid red; */
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
+    margin-top: 2%;
+    word-spacing: 5px;
 }
+/* #location_sd p{
+    border: 1px solid red;
+} */
 
 /* container  */
 
