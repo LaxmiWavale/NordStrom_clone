@@ -303,21 +303,34 @@
     </div>
 
     <div id="btmnavbar">
+        <!-- <a href="../NORD_STROM_UNIT_3/women_Page/womes's_page.html"></a> -->
 
     </div>
 </body>
 
 </html>
 <script type="module">
+    
     import {navbar} from "../NavbarUpdate/components/navbar.js";
 
     document.getElementById('navbar').innerHTML = navbar();
 
-
+    
     import {footer} from "../Sukhdev/footer/footer.js";
-
+    
     document.getElementById('btmnavbar').innerHTML = footer();
-
+    
+    document.addEventListener("keydown", SearchCategory);
+ 
+ function SearchCategory(e) {
+    if (e.key == "Enter") {
+      let Keyword = document.querySelector("#search").value;
+      window.location.href="../NORD_STROM_UNIT_3/women_Page/womes's_page.html"
+      let link = `https://www2.hm.com/en_in/women/shop-by-product/${Keyword}/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36`;
+      // document.querySelector("#Pickone").innerHTML = null;
+      ClothMap(link);
+    }
+  }
 </script>
 
 <script src="home.js"></script>

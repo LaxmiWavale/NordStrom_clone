@@ -1,0 +1,179 @@
+body {
+  background-color: #ffffff;
+  padding: 1.7%;
+}
+#LogoAndCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Logo {
+  height: 22px;
+  width: 150px;
+  cursor: pointer;
+}
+#formDiv {
+  width: 70%;
+  margin: auto;
+  border: 0px rgb(210, 207, 207) solid;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+#FormFillUp {
+  flex: 3;
+  border: 0px rgb(175, 62, 62) solid;
+  padding: 5px 15px 5px 15px;
+}
+#totalPriceDisplay {
+  flex: 1.5;
+  border: 0px rgb(67, 44, 44) solid;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px 5px 15px;
+  background-color: #f4f4f4;
+}
+#Secure {
+  font-size: 23px;
+}
+#TryToDoFlex {
+  display: flex;
+  flex-direction: row;
+  border: 0px rgb(67, 44, 44) solid;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  color: rgb(64, 63, 63);
+  gap: 5px;
+}
+#small,
+#khali > p {
+  font-size: 13px;
+  line-height: 5px;
+}
+#small2 {
+  font-size: 13px;
+  color: #498af4;
+}
+#Question {
+  color: gray;
+  margin-left: 5px;
+}
+#ColoumFlex,
+#block {
+  border-top: 0.5px rgb(210, 207, 207) solid;
+  border-bottom: 0.5px rgb(210, 207, 207) solid;
+}
+#Delivery {
+  display: flex;
+  padding-top: 1.5%;
+  margin-bottom: 2%;
+}
+#one {
+  padding: 3px 7px 3px 7px;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 50%;
+  font-size: 10px;
+  margin-right: 5px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px black solid;
+}
+#d {
+  font-size: 17px;
+}
+#shipping {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+#block {
+  display: block;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 0px;
+}
+#khali {
+  margin-bottom: 15%;
+}
+#khali3 {
+  margin-bottom: 55%;
+}
+#khali3 > h6,
+#khali > h6 {
+  font-size: 12px;
+}
+
+#continue2 {
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Gill Sans";
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: #000000;
+  border-radius: 5px;
+}
+#continue2:hover {
+  background-color: #444141;
+  transition: 0.2s;
+}
+#Items1,
+#Cal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+}
+#Cal {
+  font-size: 23px;
+  font-weight: bold;
+}
+#Items1 > p {
+  border: 0px black solid;
+  margin-bottom: -3px;
+}
+#image {
+  width: 100px;
+  height: 13px;
+  margin-left: 10%;
+}
+#card,#Code {
+  border: rgb(210, 204, 204) solid 0.5px;
+  margin-bottom: 3%;
+  padding: 9px 0px 9px 8px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 65%;
+}
+#Cvv > input {
+  width: 30%;
+}
+#image2 {
+  width: 70px;
+  height: 40px;
+}
+#continue {
+  padding: 10px;
+  color: white;
+  width: 50%;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Gill Sans";
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: -7px;
+  background-color: #444141;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+#continue:hover {
+  background-color: #000000;
+  transition: 0.2s;
+}

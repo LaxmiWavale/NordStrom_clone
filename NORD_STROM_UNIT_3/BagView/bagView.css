@@ -1,0 +1,159 @@
+body {
+	background-color: #ffffff;
+	padding: 1.7%;
+   }
+#AllCart{
+	margin: auto;
+	width: 75%;
+	border: 0px rgb(187, 36, 36) solid;
+	margin-top: 42px;
+}
+#TotalDiv{
+	font-family:"Brandon Text"  ;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	padding: 10px 30px 10px 30px;
+	border:0px rgb(44, 36, 36) solid; 
+	width: max-content;
+	background-color: #e3e3e3;
+	margin-bottom: 20px;
+}
+#Shopping{
+	font-size: 25px;
+	color: rgb(71, 69, 69);
+}
+#small{
+	font-size: 13px;
+	margin-top: -20px;
+	color:rgb(119, 114, 114); 
+	letter-spacing: 0.5px;
+	margin-bottom: 0px;
+}
+#smallpara{
+	font-size: 13px;
+	color:rgb(119, 114, 114); 
+	letter-spacing: 0.5px;
+}
+#Dono{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+#first{
+flex: 3.3;
+display: flex;
+flex-direction: column;
+border:0px rgb(27, 91, 99) solid; 
+
+}
+#second{
+flex: 1;
+display: flex;
+flex-direction: row;
+gap: 20px;
+border-top: rgb(212, 208, 208) 0.5px solid;
+border-bottom:rgb(212, 208, 208) 0.5px solid ;
+padding: 20px;
+}
+#second>div{
+	border: rgb(156, 41, 41) 0px solid;
+}
+#TotalPrice{
+	width: 220px;
+}
+#smallImage{
+	width: 70px;
+	height: 100px;
+}
+#brand {
+	font-size: 14px;
+	line-height: 3.5px;
+	color: rgb(69, 68, 68);
+	margin-top: 30px;
+   }
+   #size{
+	   margin-top: 25px;
+	font-size: 14px;
+   }
+   #color{
+  font-size: 14px;
+  margin-top: -10px;
+}
+#IconDiv{
+	display: flex;
+	gap: 5px;
+	flex-direction: row;
+}
+#twoDiv{
+	width: 350px;
+}
+#Delivery{
+	font-size: 14px;
+	color: rgb(69, 68, 68);
+}
+#remove{
+	font-size: 13px;
+	color: #498af4;
+	border: 0px;
+	background-color: transparent;
+	cursor: pointer;
+}
+#remove:hover{
+	color: #9bbbef;
+}
+#selectTag{
+	font-size: 13px;
+	color: #498af4;
+	padding: 5px;
+	border: 0px;
+}
+#PriceDiv{
+	font-size: 13px;
+	color: red;
+	width: 220px;
+	text-align: right;
+}
+#Accepted{
+	width: 250px;
+}
+#Bottom{
+	display: flex;
+	justify-content: space-between;
+}
+#bo{
+	border: 0px black solid;
+	margin-right: 20%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 40%;
+}
+#TotalPrise{
+	padding: 20px;
+	font-size: 15px;
+	border-bottom: rgb(207, 206, 206) 0.5px solid;
+	margin-top: -20px;
+}
+#Check{
+	padding: 10px;
+	background-color: #000000;
+	color: white;
+	width: 100%;
+	margin-top: 5%;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Gill Sans';
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	margin-top: -7px;
+}
+#Check:hover{
+	background-color: #444141;
+	transition: 0.2s;
+}
+
+
+
+

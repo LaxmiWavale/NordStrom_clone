@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 let firstA = document.getElementById('first');
 
 setInterval(myfunc,3000);

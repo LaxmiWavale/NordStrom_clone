@@ -1,6 +1,6 @@
 function navbar(){
     return `        <div id="navbar1">
-    <a href="index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
+    <a href="../../homepage/index.html"><div id="image"> <img id="img" src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg" alt=""></div></a>   
        <div id="input">
        <input   type="text" id="search" placeholder="Seacrh for products or brands">
        <span id="i1"><i  class="fa-solid fa-magnifying-glass"></i></span>
@@ -30,7 +30,7 @@ function navbar(){
                   <p class="p">Contact Us</p>
                </div>
              </div>
-          <a href=""><div id="cart"><img id="imgg" src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt=""> </div></a> 
+          <a href="../../NORD_STROM_UNIT_3/BagView/bagView.html"><div id="cart"><img id="imgg" src="https://cdn-icons-png.flaticon.com/512/743/743131.png" alt=""> </div></a> 
        </div>
    </div>
    <hr>
@@ -55,7 +55,7 @@ function navbar(){
                        <div id="sales1">
                            <b>Women</b>
                           <a href="" class="p1"><p>New Markdowns</p></a> 
-                         <a href="" class="p1"> <p>Clothing</p></a> 
+                         <a href="../../NORD_STROM_UNIT_3/women_Page/womes's_page.html" class="p1"> <p>Clothing</p></a> 
                          <a href="" class="p1"><p>Shoes</p></a>  
                          <a href="" class="p1"><p>Handbags & Wallets</p></a>  
                          <a href="" class="p1"><p>Jwellery</p></a>  
