@@ -34,6 +34,7 @@ function navbar(){
        </div>
    </div>
    <hr>
+   <div id="divss">
    <div id="menu">
         <div id="box2" class="btn-group">
                <button id="sign1"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -837,7 +838,7 @@ function navbar(){
              </button>
              <ul id="box1" class="box4">
                <div id="main_sales">
-                   <div id="sales">
+                   <div id="sales" class="class">
                       <b>Gifts: Get Inspired</b>
                        <hr>
                        <a href="" class="p1"><p>Pop-In for Gifts @Nordstrom</p></a>
@@ -865,7 +866,7 @@ function navbar(){
                       <a href="" class="p1"> <p>Father's Day</p></a> 
                       <a href="" class="p1"><p>Baby Shower</p></a>  
                    </div>
-                   <div id="sales3">
+                   <div class="saleimg">
                       <img src="https://n.nordstrommedia.com/id/255550df-4b39-4128-9b42-12ea75f8f75a.jpeg" alt="">
                       <br>
                       <br>
@@ -880,7 +881,7 @@ function navbar(){
            </button>
            <ul id="box1" class="box3" >
                <div id="main_sales">
-                   <div id="sales">
+                   <div id="sales" class="class" >
                       <b>Brands: Get Inspired</b>
                        <hr>
                        <a href="" class="p1"><p>Customer Love</p></a>
@@ -946,6 +947,7 @@ function navbar(){
                </div>
            </ul>
          </div>
+   </div>
    </div>`
 }
 
