@@ -21,7 +21,8 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    height: 390px;
+    /* height: 390px; */
+    height: auto;
     display: flex;
     
 }
@@ -40,7 +41,8 @@ width: 25%;
 #footer_part1 div{
     /* border: 1px solid blue;   */
     width: 20%;
-    height: 491px;
+    /* height: 491px; */
+    height: auto;   
 }
 
 #footer_part1 div p{    
