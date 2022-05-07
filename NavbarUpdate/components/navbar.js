@@ -55,7 +55,7 @@ function navbar(){
                        <div id="sales1">
                            <b>Women</b>
                           <a href="" class="p1"><p>New Markdowns</p></a> 
-                         <a href="../../NORD_STROM_UNIT_3/women_Page/womes's_page.html" class="p1"> <p>Clothing</p></a> 
+                         <a href="" class="p1"> <p>Clothing</p></a> 
                          <a href="" class="p1"><p>Shoes</p></a>  
                          <a href="" class="p1"><p>Handbags & Wallets</p></a>  
                          <a href="" class="p1"><p>Jwellery</p></a>  
@@ -146,7 +146,7 @@ function navbar(){
 
                    </div>
                    <div id="sales1">
-                       <b>Clothing</b>
+                       <a href="../NORD_STROM_UNIT_3/women_Page/womes's_page.html"><b>Clothing</b></a>
                       <a href="" class="p1"><p>Activewear</p></a> 
                      <a href="" class="p1"> <p>Blazers</p></a> 
                      <a href="" class="p1"><p>Coats & Jackets</p></a>  

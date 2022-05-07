@@ -1,6 +1,13 @@
 import { navbar } from "../../../NavbarUpdate/components/navbar.js";
 
-document.getElementById("navbar").innerHTML = navbar()
+document.getElementById("navbar").innerHTML = navbar();
+
+import {footer} from "../../../Sukhdev/footer/footer.js";
+
+document.getElementById('btmnavbar').innerHTML = footer();
+
+
+
 let Clothurl =
   "https://www2.hm.com/en_in/women/new-arrivals/clothes/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36";
 

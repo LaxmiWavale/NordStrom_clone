@@ -5,14 +5,14 @@
 }
 footer{
     background-color: #f9f9f9;
+    width: 98%;
+    margin: auto;
 
 }
 #footer{
     /* border: 1px solid black; */
     display: flex;
-    justify-content: space-between;
-
-    
+    justify-content: space-between; 
 }
 
 #footer_part1{

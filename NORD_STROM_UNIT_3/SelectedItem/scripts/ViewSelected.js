@@ -1,6 +1,10 @@
 import { navbar } from "../../../NavbarUpdate/components/navbar.js";
 document.getElementById("navbar").innerHTML = navbar();
 
+import {footer} from "../../../Sukhdev/footer/footer.js";
+
+document.getElementById('btmnavbar').innerHTML = footer();
+
 let SelectedItem = JSON.parse(localStorage.getItem("Selected"));
 
 let FirstPic = document.createElement("img");
