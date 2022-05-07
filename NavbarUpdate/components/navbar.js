@@ -34,6 +34,7 @@ function navbar(){
        </div>
    </div>
    <hr>
+   <div id="divss">
    <div id="menu">
         <div id="box2" class="btn-group">
                <button id="sign1"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -946,6 +947,7 @@ function navbar(){
                </div>
            </ul>
          </div>
+   </div>
    </div>`
 }
 
