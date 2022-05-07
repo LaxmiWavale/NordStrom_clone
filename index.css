@@ -118,8 +118,13 @@
 }
 
 #box1{
+<<<<<<< HEAD:index.css
     width: 100%;
     /* border: 1px solid black; */
+=======
+    width: 1300px;
+    border: 1px solid black;
+>>>>>>> 144c17a7cbaff8a2555ed61bb028a147e84e4c77:NavbarUpdate/styles/index.css
     height:max-content;
     transition: 0.3s;
     padding-left: 25px;
@@ -226,6 +231,42 @@ b:hover{
     opacity: 1;
     
 }
+<<<<<<< HEAD:index.css
+=======
+.box3{
+    margin-left: -12px;
+}
+.box4{
+    margin-left: -1230px;
+}
+.box5{
+    margin-left: -1095px;
+}
+.box6{
+    margin-left: -980px;
+}
+.box7{
+    margin-left: -868px;
+}
+.box8{
+    margin-left: -717px;
+}
+.box9{
+    margin-left: -560px;
+}
+.box10{
+    margin-left: -460px;
+}
+.box11{
+    margin-left: -350px;
+}
+.box12{
+    margin-left: 5px;
+}
+.box13{
+    margin-left: -110px;
+}
+>>>>>>> 144c17a7cbaff8a2555ed61bb028a147e84e4c77:NavbarUpdate/styles/index.css
 .saleimg{
     margin-top: 40px;
 }
