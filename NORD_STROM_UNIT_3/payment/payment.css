@@ -13,12 +13,13 @@ body {
   cursor: pointer;
 }
 #formDiv {
-  width: 70%;
+  width: 73%;
   margin: auto;
   border: 0px rgb(210, 207, 207) solid;
   margin-top: 3%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 12%;
 }
 #FormFillUp {
   flex: 3;

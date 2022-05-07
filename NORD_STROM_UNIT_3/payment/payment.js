@@ -1,3 +1,7 @@
+
+
+
+
 let price = JSON.parse(localStorage.getItem("TotalPrice"));
 document.querySelector("#TotalPeise").innerHTML = "Rs." + " " + price;
 
