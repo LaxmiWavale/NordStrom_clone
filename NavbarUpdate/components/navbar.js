@@ -11,7 +11,7 @@ function navbar() {
                 Sign In
                </button>
                <div id="box" >
-                 <a href="sign.html"> <button id="btn">Sign In | Create Account</button></a> 
+                 <a href="../NavbarUpdate/sign.html"> <button id="btn">Sign In | Create Account</button></a> 
                   <h6 class="h6">Your Account</h6>
                   <p class="p"><i id="i" class="fa-solid fa-bag-shopping"></i>Purchase</p>
                   <p class="p"><i id="i" class="fa-solid fa-heart"></i>Wish List</p>
