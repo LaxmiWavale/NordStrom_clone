@@ -150,6 +150,12 @@
     height: max-content;
     /* border: 1px solid red; */
 }
+
+#sales1 a{
+    text-decoration: none;
+    color: rgb(28, 27, 27);
+}
+
 #sales2{
     width: 300px;
     height: max-content;
