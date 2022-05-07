@@ -24,7 +24,7 @@ function myLogin3(){
     }
     if(flag == 1){
         alert("login Successfull")
-        window.location.href = "index.html"
+        window.location.href = "../homepage/index.html"
     }
     else{
         alert("Login Failed")
