@@ -113,12 +113,6 @@ width: 25%;
     padding-top: 20px;
 }
 #social_sd a{
-     /* border: 1px solid black;
-    padding: 6px;
-    border-radius: 50%;
-    font-size: 15px;
-    cursor: pointer;
-    color: black;    */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,7 +127,7 @@ width: 25%;
 }
 
 .fa-plus{
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 100;
 }
 
