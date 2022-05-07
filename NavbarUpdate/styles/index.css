@@ -132,6 +132,7 @@
     /* border: 1px solid red; */
     display: flex;
     gap: 30px;
+    margin-top: -20px;
 }
 #sales{
     width: 300px;
@@ -240,7 +241,7 @@ b:hover{
     margin-left: -440px;
 }
 .box11{
-    margin-left: -330px;
+    margin-left: -340px;
 }
 .box12{
     margin-left: -210px;
