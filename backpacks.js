@@ -1,9 +1,9 @@
 
 
-const url= `https://www2.hm.com/en_in/men/new-arrivals/shoes-accessories/_jcr_content/main/productlisting.display.json?sort=stock&productTypes=Bag&image-size=small&image=model`
+const url= `https://www2.hm.com/en_in/men/shop-by-product/accessories/_jcr_content/main/productlisting.display.json?sort=newProduct&productTypes=Bag&image-size=small&image=stillLife`
 
 
-const urlhtl = `https://www2.hm.com/en_in/men/new-arrivals/shoes-accessories/_jcr_content/main/productlisting.display.json?sort=descPrice&productTypes=Bag&image-size=small&image=model`
+const urlhtl = `https://www2.hm.com/en_in/men/shop-by-product/accessories/_jcr_content/main/productlisting.display.json?sort=ascPrice&productTypes=Bag&image-size=small&image=stillLife`
 
 
 
@@ -31,13 +31,15 @@ document.getElementById("footer_sd").innerHTML = footer();
 
 async function activewareData(){
 
+    console.log("funn")
     try{
         const res = await fetch(url);
 
         const data = await res.json();
         
+        console.log(data)
         appendData(data.products)
-
+        
 
     }
     catch(err){
@@ -52,6 +54,7 @@ activewareData()
 let results = document.getElementById("append_items_sd");
 
 function appendData(data){
+    console.log(data)
     
     results.innerHTML ="";
 
