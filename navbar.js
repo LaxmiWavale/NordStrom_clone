@@ -169,7 +169,7 @@ function navbar(){
                    <div id="sales2">
                       <b>Shoes</b> 
                      <a href="" class="p1"><p>Booties</p></a>  
-                     <a href="" class="p1"> <p >Boots</p></a> 
+                     <a href="./womenshoes.html" class="p1"> <p >Boots</p></a> 
                      <a href="" class="p1"><p >Clogs</p></a>  
                      <a href="" class="p1"><p>Comforts</p></a>  
                      <a href="" class="p1"> <p >Dress Shoes</p></a> 
