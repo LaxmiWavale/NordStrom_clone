@@ -328,7 +328,7 @@ let fourthdiv = document.getElementById('fourth');
 let forthImgDiv = document.createElement('div');
 forthImgDiv.setAttribute('id',"forthImgDiv");
 let fourthAnchor = document.createElement('a');
-fourthAnchor.href ="sample.html";
+fourthAnchor.href ="./womes's_page.html";
 let fourthImg = document.createElement('img');
 
 let forthinfoDiv = document.createElement('div');
@@ -368,7 +368,7 @@ let sixthdiv = document.getElementById('sixth');
 let sixthImgDiv = document.createElement('div');
 sixthImgDiv.setAttribute('id',"sixthImgDiv");
 let SixthAnchor = document.createElement('a');
-SixthAnchor.href ="sample.html";
+SixthAnchor.href ="./womes's_page.html";
 let sixthImg = document.createElement('img');
 
 let sixthinfoDiv = document.createElement('div');

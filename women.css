@@ -8,6 +8,7 @@ body {
 }
 #WomenClothDiv{
   margin-top: 4%;
+ 
 }
 #Home {
   text-decoration: none;
@@ -161,6 +162,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   box-sizing: border-box;
+  margin-bottom: 10%;
 }
 #smallClothDiv {
   border: 0px rgb(121, 35, 35) solid;
