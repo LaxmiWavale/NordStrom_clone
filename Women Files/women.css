@@ -1,0 +1,237 @@
+
+body {
+  background-color: #ffffff;
+}
+#span{
+  padding: 1.7%;
+  margin-top: 30px;
+}
+#WomenClothDiv{
+  margin-top: 4%;
+ 
+}
+#Home {
+  text-decoration: none;
+  color: #726f6f;
+  font-size: 18px;
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#Home:after {
+  background-color: black;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: -3px;
+}
+#Home:hover:after {
+  width: 55px;
+  transition: 0.3s;
+}
+#ADD {
+  display: contents;
+  color: #726f6f;
+  font-size: 17px;
+}
+#TwoDiv {
+  width: 100%;
+  border: 0px black solid;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+#CategoryDiv {
+  border: 0px rgb(121, 35, 35) solid;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+#CategoryDiv > div {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0px black solid;
+  font-weight: bold;
+  color: #49443e;
+  font-size: 16px;
+  justify-content: space-between;
+  display: flex;
+  cursor: pointer;
+  border-top: solid #c8c3c3 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#Pick {
+  border: 0px rgb(121, 35, 35) solid;
+  /* flex: 0; */
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+#Pickone > p {
+  text-align: center;
+  line-height: 5px;
+  font-family: "Brandon Text";
+  color: #393631;
+  position: relative;
+}
+
+#CatImage {
+  width: 100%;
+  margin-top: -50px;
+  margin-bottom: -25px;
+}
+#DTJ {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 50px;
+}
+#DTJ > div {
+  color: #434141;
+  font-size: 13px;
+  position: relative;
+  width: max-content;
+  cursor: pointer;
+}
+#DTJ > div:after {
+  background-color: black;
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 100%;
+  left: 0;
+  bottom: -3px;
+}
+#DTJ > div:hover:after {
+  height: 2px;
+  transition: 0.3s;
+}
+#ClothMap {
+  border: 0px rgb(121, 35, 35) solid;
+  /* margin-top: 5.5%; */
+}
+#WomenClothing {
+  color: #434141;
+  font-size: 19px;
+  font-weight: bold;
+  
+}
+#sort {
+  justify-content: space-between;
+  display: flex;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+}
+#sort > p {
+  color: #434141;
+  font-size: 18px;
+  margin-top: 20px;
+}
+/* #TotalItems{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} */
+#SelectTag {
+  width: 320px;
+  padding: 7px;
+  border: 0.5px #bcb7b7 solid;
+  font-size: 15px;
+  color: #434141;
+  cursor: pointer;
+}
+#SelectTag > option {
+  color: #434141;
+  font-size: 18px;
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#ClothDataMap {
+  margin-top: 2%;
+  border: 0px rgb(121, 35, 35) solid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+}
+#smallClothDiv {
+  border: 0px rgb(121, 35, 35) solid;
+  height: 550px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+#ClothPic {
+  width: 100%;
+  height: 80%;
+  position: relative;
+  z-index: -1;
+}
+
+#titleOfCloth {
+  margin-top: 3px;
+font-weight: bold;
+color: #434141;
+}
+#peise {
+  font-size: 15px;
+  margin-top: -18px;
+}
+#AvailableColors{
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+  margin-top: -8px;
+  margin-bottom: 5px;
+}
+#smallColorDiv{
+	width: 20px;
+	height: 20px;
+	border: rgb(65, 63, 63) 1px solid;
+	border-radius: 50%;
+	cursor: pointer;
+
+}
+#sellingAttribute {
+  font-size: 13px;
+  color: #726f6f;
+}
+#category {
+  font-size: 13px;
+  color: #a02fdc;
+  margin-top: -15px;
+}
+#Dissappering {
+  border: 1px #dedada solid;
+  margin-top: -53px;
+  z-index: 1;
+  text-align: center;
+  padding: 15px;
+  background-color: #ffffff;
+  font-size: 16px;
+  opacity: 0;
+}
+#Dissappering:hover {
+  cursor: pointer;
+  border: 1px #3a3939 solid;
+}
+
+#smallClothDiv:hover #Dissappering {
+  opacity: 1;
+  transition: 0.5s;
+}
+#ho,ul{
+  display: none;
+  /* line-height: 30px; */
+}
