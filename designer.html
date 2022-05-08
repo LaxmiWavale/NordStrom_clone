@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"crossorigin="anonymous"></script>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <style>
-        #box2 {
+        #BOX2 {
             width: 100%;
             height: auto;
             /*border: 5px solid blue;*/
+            margin-bottom: 10%;
+        }
+        h2{
+            margin-top: 5%;
         }
         #z1 {
             width: 100%;
@@ -221,16 +231,19 @@
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
+
+
     <h2>Designer Apparel for Women, Men & Kids</h2>
 
-    <div id="box2">
+    <div id="BOX2">
 
         <div id="z1">
             <div>
-                <img src="./pic4.png" alt="">
+                <img src="./images/pic4.png" alt="">
             </div>
             <div>
-                <img src="./pic5.png" alt="">
+                <img src="./images/pic5.png" alt="">
             </div>
         </div>
 
@@ -243,10 +256,10 @@
                 </div>
             </div>
             <div class="r2">
-                <img src="./pic1.png" alt="">
+                <img src="./images/pic1.png" alt="">
             </div>
             <div class="r3">
-                <img src="./pic2.png" alt="">
+                <img src="./images/pic2.png" alt="">
             </div> 
         </div>
 
@@ -257,7 +270,7 @@
         <hr style="height:2px;padding:1px;border-width:30%;margin-bottom:10px;color:black;background-color:black">
 
         <div id="z5">
-            <img src="./pic6.png" alt="" style="width: 60%; height: 50px; margin-left: 17%; ">
+            <img src="./images/pic6.png" alt="" style="width: 60%; height: 50px; margin-left: 17%; ">
         </div>
 
         <div id="z6">
@@ -269,7 +282,7 @@
                 </div>
             </div>
             <div class="r5">
-                <img src="./pic3.png" alt="" style="height: 596px"> 
+                <img src="./images/pic3.png" alt="" style="height: 596px"> 
             </div>
         </div>
 
@@ -282,7 +295,7 @@
                 </div>
             </div>
             <div class="r7">
-                <img src="./pic7.png" alt="" style="height: 594px;">
+                <img src="./images/pic7.png" alt="" style="height: 594px;">
             </div>
         </div>
 
@@ -293,7 +306,7 @@
         <hr style="height:2px;padding:1px;border-width:30%;margin-bottom:10px;color:black;background-color:black">
 
         <div id="z9">
-            <img src="./pic8.png" alt="">
+            <img src="./images/pic8.png" alt="">
         </div>
 
         <div id="z10">
@@ -305,7 +318,7 @@
                 </div>
             </div>
             <div class="r9">
-                <img src="./pic9.png" alt="">
+                <img src="./images/pic9.png" alt="">
             </div>
         </div>
 
@@ -318,10 +331,27 @@
                 </div>
             </div>
             <div class="r11">
-                <img src="./pic10.png" alt="" style="height: 620px;">
+                <img src="./images/pic10.png" alt="" style="height: 620px;">
             </div>
         </div>
 
     </div>
+
+    <div id="btmnavbar"></div>
+
 </body>
 </html>
+
+<script type="module">
+    
+import {navbar} from './navbar.js'
+document.getElementById("navbar").innerHTML = navbar();
+
+// Import footer 
+
+import {footer} from './footer.js'
+document.getElementById("btmnavbar").innerHTML = footer();
+
+
+
+</script>
