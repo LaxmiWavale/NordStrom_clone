@@ -265,7 +265,7 @@ function navbar(){
                    </div>
                    <div id="sales2">
                       <b>Shoes</b> 
-                     <a href="" class="p1"> <p >Boots</p></a> 
+                     <a href="./bootes.html" class="p1"> <p >Boots</p></a> 
                      <a href="" class="p1"><p>Comforts</p></a>  
                      <a href="" class="p1"> <p >Dress Shoes</p></a> 
                      <a href="" class="p1"><p >Loafers & Slip-Ons</p></a>  
@@ -276,7 +276,7 @@ function navbar(){
                    </div>
                    <div id="sales3">
                        <b>Accessories</b>
-                     <a href="" class="p1"><p>Backpacks</p></a>  
+                     <a href="./backpacks.html" class="p1"><p>Backpacks</p></a>  
                      <a href="" class="p1"><p>Bags</p></a>  
                      <a href="" class="p1"><p>Belts</p></a>  
                      <a href="" class="p1"> <p>Hats</p></a> 

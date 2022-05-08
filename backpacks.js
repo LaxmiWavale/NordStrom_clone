@@ -31,7 +31,7 @@ document.getElementById("footer_sd").innerHTML = footer();
 
 async function activewareData(){
 
-    console.log("funn")
+    // console.log("funn")
     try{
         const res = await fetch(url);
 
