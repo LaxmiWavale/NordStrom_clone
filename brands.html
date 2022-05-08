@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #x {
+            width: 25%;
+            height: 1300px;
+            /*border: 3px solid black;*/
+        }
+        #y {
+            width: 100%;
+            height: 2000px;
+            /*border: 3px solid black;*/
+        }
+        #w {
+            width: 10%;
+            height: 800px;
+            /*border: 3px solid red;*/
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        } 
+        #k {
+            width: 100%;
+            height: 3400px;
+            display: flex;
+            padding: 10px;
+            /*border: 3px solid red;*/
+        }
+        #k1 {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            margin-bottom: 50px;
+            /*border: 3px solid black;*/
+        }
+        #k1 > .f1 {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid blue;*/
+        }
+        #k1 > .f2 {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            /*border: 3px solid blue;*/
+        }
+        #k2 {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            margin-bottom: 10px;
+            /*border: 3px solid green;*/
+        }
+        #k2 > .f3 {
+            width: 50%;
+            height: 500px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid yellow;*/
+        }
+        #k2 > .f3 > img {
+            width: 100%;
+            height: 500px;
+        }
+        #k2 > .f4 {
+            width: 50%;
+            height: 500px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid yellow;*/
+        }
+        #k2 > .f4 > img {
+            width: 100%;
+            height: 500px;
+        }
+        #k2 > .f5 {
+            width: 50%;
+            height: 500px;
+            padding: 10px;
+            gap: 20px;
+            /*border: 3px solid yellow;*/
+        }
+       #k2 > .f5 > div {
+            margin-top: 100px;
+        }
+        #k3 {
+            width: 100%;
+            height: 550px;
+            display: flex;
+            margin-bottom: 50px;
+            /*border: 3px solid brown;*/
+        }
+        #k3 > .f6 {
+            width: 50%;
+            height: 490px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid yellowgreen;*/
+        }
+        #k3 > .f6 > img {
+            width: 100%;
+            height: 500px;
+        }
+        #k3 > .f7 {
+            width: 50%;
+            height: 490px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid yellowgreen;*/
+        }
+        #k3 > .f7 > img {
+            width: 100%;
+            height: 500px;
+        }
+        #k3 > .f8 {
+            width: 50%;
+            height: 490px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid yellowgreen;*/
+        }
+        #k3 > .f8 > img {
+            width: 100%;
+            height: 500px;
+        }
+        #k3 > .f9 {
+            width: 50%;
+            height: 490px;
+            padding: 10px;
+            gap: 5px;
+            text-align: center;
+            /*border: 3px solid yellowgreen;*/
+        }
+        #k3 > .f9 > img {
+            width: 100%;
+            height: 500px;
+        }
+        #k4 {
+            width: 100%;
+            height: 1700px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            /*border: 3px solid brown;*/
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #k4 > .f10 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f10 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f11 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f11 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f12 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f12 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f13 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f13 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f14 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f14 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f15 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f15 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f16 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f16 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f17 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f17 > img {
+            width: 97%;
+            height: 400px;
+        }
+        #k4 > .f18 {
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            /*border: 3px solid orange;*/
+        }
+        #k4 > .f18 > img {
+            width: 97%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="k">
+
+    <div id="x">
+
+        <div id="w">
+            <h3>Nordstrom Made</h3>
+            <h3>Women</h3>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/women/clothing?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FWomen%2FClothing">Clothing</a>
+            </div>   
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/women/shoes?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FWomen%2FShoes">Shoes</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/women/accessories?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FWomen%2FAccessories">Accessories</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/women/handbags?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FWomen%2FHandbags">Handbags</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/women/jewelry?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FWomen%2FJewelry">Jewelry</a>
+            </div>
+            <h3>Men</h3>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/men/clothing?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FMen%2FClothing">Clothing</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/men/shoes?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FMen%2FShoes">Shoes</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/men/accessories?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FMen%2FAccessories">Accessories</a>
+            </div>
+            <h3>Kids</h3>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/kids/girls?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FKids%2FGirls">Girls</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/kids/boys?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FKids%2FBoys">Boys</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/kids/baby?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FKids%2FBaby">Baby</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/kids/baby-gear?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FKids%2FBaby%20Gear">Baby Gear</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/kids/shoes?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FKids%2FShoes">Shoes</a>
+            </div>
+            <h3>Home</h3>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/home/bath?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FHome%2FBath">Bath</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/home/bedding?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FHome%2FBedding">Bedding</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/home/decor?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FHome%2FHome%20Decor">Home Decor</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/home/tabletop-kitchen?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FHome%2FTabletop%20%26%20Kitchen">Tabletop & Kitchen</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-made/home/luggage?breadcrumb=Home%2FBrands%2FNordstrom%20Made%2FHome%2FLuggage%20%26%20Travel">Luggage & Travel</a>
+            </div>
+            <h3>Featured</h3>
+            <div>
+                <a href="https://www.nordstrom.com/brands/bp">BP.</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/bp-wildfang">BP. + Wildfang</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/caslon--838">Caslon</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/halogen">Halogen</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/nordstrom-mens-shop--13230">Nordstrom Men's Shop</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/open-edit--21897">Open Edit</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/treasure-bond--9394">Treasure & Bond</a>
+            </div>
+            <div>
+                <a href="https://www.nordstrom.com/brands/zella">Zella</a>
+            </div>
+            <h3>More Ways to Shop</h3>
+            <h3>Nordstrom Made</h3>
+        </div>
+    </div>
+
+    <div id="y">
+
+    <h2>Nordstrom Made</h2>
+    <hr style="height:2px;padding:8px;border-width:30%;margin-bottom:10px;color:black;background-color:black">
+
+        <div id="k1">
+            <div class="f1">
+                <h1 style="font-size:70px;">NORDSTROM <br> MADE</h1> 
+             </div>
+             <div class="f2">
+                 <p>In our hometown of Seattle, we house a team of fashion designers whose sole purpose is to <br> create brands for you, inspired by you. With a focus on fashion and value, we bring you the <br> very best, on your terms—whether you're looking for versatility, the latest trends or to <br> support your local community. When it's Nordstrom Made, it's made to delight, to inspire <br> and to fit your life perfectly.</p>
+                 <u>Women</u> <u>Men</u> <u>Kids</u> <u>Home</u>
+             </div>
+        </div>
+
+        <div id="k2">
+            <div class="f3">
+                <img src="./p1.png" alt="">
+            </div>
+            <div class="f4">
+                <img src="./p2.png" alt="">
+            </div>
+            <div class="f5"> 
+              <div>
+                <h2>Open Edit</h2>
+                <h2>Made to Inspire</h2>
+                <p>Explore our spring collection of lighter looks for work <br> and weekends, outings and events. Wear them your <br> way.</p>
+                <u>Open Edit</u> <u>All Nordstrom Made</u>
+              </div>
+            </div>
+        </div>
+
+        <div id="k3">
+            <div class="f6">
+                <img src="./p3.png" alt="">
+                <u>Women</u>
+            </div>
+            <div class="f7">
+                <img src="./p4.png" alt="">
+                <u>Men</u>
+            </div>
+            <div class="f8">
+                <img src="./p5.png" alt="">
+                <u>Home</u>
+            </div>
+            <div class="f9">
+                <img src="./p6.png" alt="">
+                <u>Kids</u>
+            </div>
+        </div>
+
+        <h1>OUR BRANDS</h1>
+        <div id="k4">
+            <div class="f10">
+                <img src="./p7.png" alt="">
+                <h3>Nordstrom Signature <br> Made with Luxury</h3>
+                <u>Nordstrom Signature</u>
+            </div>
+            <div class="f11">
+                <img src="./p8.png" alt="">
+                <h3>Halogen <br> Made to Mix</h3>
+                <u>Halogen</u>
+            </div>
+            <div class="f12">
+                <img src="./p9.png" alt="">
+                <h3>Nordstrom Men's Shop <br> Made with Polish</h3>
+                <u>Nordstrom Men's Shop</u>
+            </div>
+            <div class="f13">
+                <img src="./p10.png" alt="">
+                <h3>BP. <br> Made for Now</h3>
+                <u>BP.</u>
+            </div>
+            <div class="f14">
+                <img src="./p11.png" alt="">
+                <h3>Treasure & Bond <br> Made with Purpose</h3>
+                <u>Treasure & Bond</u>
+            </div>
+            <div class="f15">
+                <img src="./p12.png" alt="">
+                <h3>Open Edit <br> Made for Possibility</h3>
+                <u>Open Edit</u>
+            </div>
+            <div class="f16">
+                <img src="./p13.png" alt="">
+                <h3>Caslon <br> Made with Ease</h3>
+                <u>Caslon</u>
+            </div>
+            <div class="f17">
+                <img src="./p14.png" alt="">
+                <h3>Zella <br> Made to Move</h3>
+                <u>Zella</u>
+            </div>
+            <div class="f18">
+                <img src="./p15.png" alt="">
+                <h3>Tucker + Tate <br> Made to Play</h3>
+                <u>Tucker + Tate</u>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

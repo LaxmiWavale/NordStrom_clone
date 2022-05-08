@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+#activeware{
+    margin: 0% 3%;
+    margin-bottom: 10%;
+}
+
+#location_sd{
+    display: flex;
+    align-items: center;
+    word-spacing: 5px;
+    margin-top: 2%;
+}
+#location_sd p{
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+}
+
+/* container  */
+
+#cont_sd{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* sidebar start  */
+
+#sidebar{
+    /* border: 1px solid red; */
+    width: 15%;
+    height: 650px;
+
+}
+
+
+.bi-plus-lg{
+
+    font-size: 20px;
+}
+#sidebar h3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-top:  0.50px solid gray;
+    border-bottom: 0px solid gray;
+    font-size: 18px;
+    
+}
+
+  /* backpacks items  */
+
+
+#act_items{
+    /* border: 1px solid blue; */
+    width: 84%;
+    margin-top: 2%;
+    margin-left: 3%;
+    height: auto;
+}
+
+#sub_menu_sd{
+    /* border: 1px solid brown ; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    padding-bottom: 10px;
+    
+    
+}
+#sub_menu_sd h3{
+    font-size: 17px;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+#sub_menu_sd h3:hover{
+    border-bottom: 4px solid black;
+    font-weight: bold;
+}
+
+
+
+
+#hr_sd{
+    border: 0.10 solid gray;
+
+}
+
+#sort_items_sd{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+#sort_opt{
+    width: 266px;
+    height: 40px;
+    font-size: 18px;
+    border: 0.10px solid gray;
+    cursor: pointer;
+}
+
+#sort_opt option{
+    font-size: 18px;
+
+}
+
+
+/* append data  */
+
+#append_items_sd{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(auto,548px);   
+    gap: 10px;
+}
+
+#box_active{
+    /* border: 1px solid red; */
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+#img_active{
+    width: 100%;
+}
+#pri_active{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#tit_active{
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+    padding-bottom: 7px;
+}
+
+
+
+/* select colour  */
+#color_sd{
+    /* border: 1px solid red; */
+    width: 150px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+    
+}
+
+
+#color_sd div{
+    width: 20px;
+    border-radius: 50%;
+    
+}
+#colo1{
+    border: 2px solid rgb(233, 225, 225); 
+    background-color: black;
+    cursor: pointer;
+}
+#colo1:hover{
+    border: 2px solid grey;
+}
+
+
+#colo2{
+    border: 2px solid rgb(233, 225, 225); 
+    background-color: goldenrod;
+    cursor: pointer;
+}
+#colo2:hover{
+    border: 2px solid grey;
+}
+
+#colo3{
+    border: 2px solid rgb(233, 225, 225); 
+    background-color: saddlebrown;
+    cursor: pointer;
+}
+#colo3:hover{
+    border: 2px solid grey;
+}
+
+#colo4{
+    border: 2px solid rgb(233, 225, 225); 
+    background-color: slateblue;
+    cursor: pointer;
+}
+#colo4:hover{
+    border: 2px solid grey;
+}
+
+#colo5{
+    border: 2px solid rgb(233, 225, 225); 
+    background-color: salmon;
+    cursor: pointer;
+}
+
+#colo5:hover{
+    border: 2px solid grey;
+}
+
+
+/* User Rating   */
+#rating_sd{
+    /* border: 1px solid red; */
+    width: 249px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+#rating_sd div{
+    margin-right: 5px;
+}
+#rating_sd > div + p{
+    color: grey;
+    font-size: 17px;
+    
+}
+
+
+
+/* Apper box  */
+
+#apperBox_sd{
+    border: 1px solid gray;
+    width: 99%;
+    height: 50px;
+    margin-top: -22%;
+    position: relative;
+    visibility: hidden;
+    background-color: transparent;
+    text-align: center;
+    color: black;
+    
+    
+}
+#appertxt_sd{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 12.50px;
+    
+    
+}
+
+#imgBox_id:hover #apperBox_sd  {
+
+    visibility: visible;
+
+}
+
+#apperBox_sd:hover{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
