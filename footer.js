@@ -91,8 +91,8 @@ function footer(){
        </div>
 
        <div id="uparrow_sd">
-           <div><i class="fa-solid fa-angle-up"></i></i></div>
-           <p>Top</p>
+           <a href="#"><i class="fa-solid fa-angle-up"></i></i></a>
+           <a id="top_sd" href="#">Top</a>
 
        </div>
       

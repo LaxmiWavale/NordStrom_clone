@@ -47,6 +47,7 @@ async function activewareData(){
 
         const data = await res.json();
         appendData(data.products)
+        console.log(data.products)
 
     }
     catch(err){
@@ -70,6 +71,12 @@ function appendData(data){
     let box = document.createElement("div");
     box.setAttribute("id","box_active")
 
+    box.addEventListener("click", function () {
+        localStorage.setItem("Selected", JSON.stringify(elem));
+        window.location.href = "./ViewSelected.html";
+      });
+
+
     let imgBox_div_sd = document.createElement("div")
     imgBox_div_sd.setAttribute("id","imgBox_id")
 
@@ -82,10 +89,12 @@ function appendData(data){
     apperBox_div.setAttribute("id","apperBox")
     apperBox_div.innerHTML = apperBox();
 
+    
+
     let colo = document.createElement("div");
     colo.setAttribute("id","colo_sd")
     colo.innerHTML = colourSection();
-    
+
 
     let title = document.createElement("p");
     title.setAttribute("id","tit_active")

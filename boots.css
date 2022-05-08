@@ -76,6 +76,11 @@
     
     
 }
+#act_items h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 #sub_menu_sd h3{
     font-size: 17px;
     font-weight: 200;

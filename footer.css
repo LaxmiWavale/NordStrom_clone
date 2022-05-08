@@ -86,6 +86,15 @@ width: 25%;
     height: 390px;
 }
 
+#uparrow_sd a{
+    text-decoration: none;
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
 #applogo_sd{
     /* border: 1px solid black; */
     width: 100%;
@@ -169,7 +178,7 @@ width: 25%;
 }
 
 
-#uparrow_sd p{
+#top_sd{
     font-size: 15px;
     margin-left: 34%;
 }
