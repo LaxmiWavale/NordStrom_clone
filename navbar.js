@@ -244,8 +244,8 @@ function navbar(){
 
                    </div>
                    <div id="sales1">
-                       <a href ="./men.html"<b>Clothing</b></a>
-                      <a href="" class="p1"><p>Activewear</p></a> 
+                       <a href ="./men.html"><b>Clothing</b></a>
+                      <a href="./men.html" class="p1"><p>Activewear</p></a> 
                      <a href="" class="p1"> <p>Blazers & Sport Coats</p></a> 
                      <a href="" class="p1"><p>Coats & Jackets</p></a>  
                      <a href="" class="p1"><p>Dress Shirts</p></a>  
@@ -264,8 +264,9 @@ function navbar(){
                       <a href="" class="p1"><p>Underwear & Boxers</p></a> 
                    </div>
                    <div id="sales2">
-                      <b>Shoes</b> 
-                     <a href="" class="p1"> <p >Boots</p></a> 
+                  
+                      <a href ="./bootes.html"><b>Shoes</b> </a>
+                     <a href="./bootes.html" class="p1"> <p >Boots</p></a> 
                      <a href="" class="p1"><p>Comforts</p></a>  
                      <a href="" class="p1"> <p >Dress Shoes</p></a> 
                      <a href="" class="p1"><p >Loafers & Slip-Ons</p></a>  
@@ -276,7 +277,7 @@ function navbar(){
                    </div>
                    <div id="sales3">
                        <b>Accessories</b>
-                     <a href="" class="p1"><p>Backpacks</p></a>  
+                     <a href="./backpacks.html" class="p1"><p>Backpacks</p></a>  
                      <a href="" class="p1"><p>Bags</p></a>  
                      <a href="" class="p1"><p>Belts</p></a>  
                      <a href="" class="p1"> <p>Hats</p></a> 
@@ -338,7 +339,7 @@ function navbar(){
 
            </div>
            <div id="sales1">
-               <b>Kid's Clothing</b>
+               <a href="./kids.html"><b>Kid's Clothing</b></a>
               <a href="" class="p1"><p>Activewear</p></a> 
              <a href="" class="p1"><p>Coats & Jackets</p></a>  
              <a href="" class="p1"><p>Jeans & Denim</p></a>  
@@ -430,7 +431,7 @@ function navbar(){
        
                        </div>
                        <div id="sales1">
-                           <b>Womens Clothing</b>
+                           <a href="./womes's_page.html"><b>Womens Clothing</b></a>
                            <a href="" class="p1"><p>Activewear</p></a> 
                            <a href="" class="p1"> <p>Blazers</p></a> 
                            <a href="" class="p1"><p>Coats & Jackets</p></a>  
@@ -448,7 +449,7 @@ function navbar(){
 
                        </div>
                        <div id="sales2">
-                          <b>Mens Clothing</b> 
+                          <a href ="./men.html" style="text-decoration:none; color: black;"><b>Mens Clothing</b></a>
                           <a href="" class="p1"><p>Activewear</p></a> 
                           <a href="" class="p1"> <p>Blazers & Sport Coats</p></a> 
                           <a href="" class="p1"><p>Coats & Jackets</p></a>  
@@ -519,7 +520,7 @@ function navbar(){
    
                    </div>
                    <div id="sales1">
-                       <b>Womens Activewear</b>
+                      <a href="./womenactivewere.html"> <b>Womens Activewear</b> </a>
                        <a href="" class="p1"><p>Activewear</p></a> 
                        <a href="" class="p1"> <p>Blazers</p></a> 
                        <a href="" class="p1"><p>Coats & Jackets</p></a>  
@@ -593,7 +594,7 @@ function navbar(){
    
                    </div>
                    <div id="sales1">
-                       <b>Bath</b>
+                      <a href="home_bath.html"> <b>Bath</b></a>
                        <a href="" class="p1"><p>Bath Accessories</p></a> 
                        <a href="" class="p1"> <p>Towels</p></a>  
                         <br>
@@ -676,7 +677,7 @@ function navbar(){
        
                </div>
                <div id="sales1">
-                   <b>Beauty Brands</b>
+                  <a href="beauty.html"> <b>Beauty Brands</b></a>
                    <a href="" class="p1"><p>Bobbi Brown</p></a> 
                    <a href="" class="p1"> <p>CHANEL</p></a> 
                    <a href="" class="p1"><p>Charlotte Tilbury</p></a>  
@@ -759,7 +760,7 @@ function navbar(){
                           <a href="" class="p1"><p>Spring Fashion</p></a> 
                        </div>
                        <div id="sales1">
-                           <b>Designer Brands</b>
+                           <a href="./designer.html"><b>Designer Brands</b></a>
                            <a href="" class="p1"><p>Alexander McQueen</p></a> 
                            <a href="" class="p1"> <p>Balenciaga</p></a> 
                            <a href="" class="p1"><p>Bottega Veneta</p></a>  
