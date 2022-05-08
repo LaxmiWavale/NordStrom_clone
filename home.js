@@ -587,3 +587,18 @@ trendingForladies.forEach(function(el){
 function gotoWomens(){
     window.location.href = "./womes's_page.html";
 }
+
+// let a= document.getElementById('sign');
+      
+
+// let obj= JSON.parse(localStorage.getItem('Account1'));
+// console.log('obj:', obj);
+
+// obj.map(function(el){
+//   console.log(el.first_name)
+//   a.innerText = el.first_name;
+// })
+
+  
+  
+

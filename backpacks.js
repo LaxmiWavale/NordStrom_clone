@@ -31,6 +31,7 @@ document.getElementById("footer_sd").innerHTML = footer();
 
 async function activewareData(){
 
+    // console.log("funn")
     try{
         const res = await fetch(url);
 
@@ -59,6 +60,11 @@ function appendData(data){
         
     let box = document.createElement("div");
     box.setAttribute("id","box_active")
+
+    box.addEventListener("click", function () {
+        localStorage.setItem("Selected", JSON.stringify(elem));
+        window.location.href = "./ViewSelected.html";
+      });
 
     let imgBox_div_sd = document.createElement("div")
     imgBox_div_sd.setAttribute("id","imgBox_id")

@@ -109,6 +109,7 @@ padding: 20px;
 	color: #498af4;
 	padding: 5px;
 	border: 0px;
+	cursor: pointer;
 }
 #PriceDiv{
 	font-size: 13px;

@@ -91,7 +91,7 @@ function footer(){
        </div>
 
        <div id="uparrow_sd">
-           <div><i class="fa-solid fa-angle-up"></i></i></div>
+           <a href="#" style="text-decoration:none; color: black;"><div><i class="fa-solid fa-angle-up"></i></i></div></a>
            <p>Top</p>
 
        </div>

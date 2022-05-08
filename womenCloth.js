@@ -2,11 +2,9 @@ import { navbar } from "./navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
-import {footer} from "./footer.js";
+import { footer } from "./footer.js";
 
-document.getElementById('btmnavbar').innerHTML = footer();
-
-
+document.getElementById("btmnavbar").innerHTML = footer();
 
 let Clothurl =
   "https://www2.hm.com/en_in/women/new-arrivals/clothes/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36";
@@ -98,4 +96,20 @@ function SearchCategory(e) {
     document.querySelector("#Pickone").innerHTML = null;
     ClothMap(link);
   }
+}
+
+//====================
+document.querySelector("#xm9").addEventListener("click", catplus1);
+function catplus1() {
+  console.log("hii");
+  document.getElementById("zz1").style.display = "block";
+  document.getElementById("xm9").style.display = "none";
+  document.getElementById("xm10").style.display = "block";
+}
+document.querySelector("#xm10").addEventListener("click", catplus2);
+function catplus2() {
+  console.log("hii");
+  document.getElementById("zz1").style.display = "none";
+  document.getElementById("xm9").style.display = "block";
+  document.getElementById("xm10").style.display = "none";
 }

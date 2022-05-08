@@ -48,6 +48,7 @@ body {
   width: 200px;
   display: flex;
   flex-direction: column;
+  
 }
 #CategoryDiv > div {
   padding-top: 25px;
@@ -63,6 +64,7 @@ body {
   cursor: pointer;
   border-top: solid #c8c3c3 1px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
 }
 #Pick {
   border: 0px rgb(121, 35, 35) solid;
@@ -230,4 +232,18 @@ color: #434141;
 #smallClothDiv:hover #Dissappering {
   opacity: 1;
   transition: 0.5s;
+}
+#zz1{
+  display: none;
+}
+#xm9{
+  cursor: pointer;
+  position: relative;
+}
+#xm10 {
+  cursor: pointer;
+  position: absolute;
+  display: none;
+  top: -25px;
+  left: 188px;
 }
