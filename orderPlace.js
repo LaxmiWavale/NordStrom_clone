@@ -34,4 +34,6 @@ function gayab() {
   }
 }
 
-
+function GoBack(){
+  window.location.href="./bagView.html"
+}

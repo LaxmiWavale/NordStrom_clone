@@ -48,10 +48,12 @@ body {
   align-items: center;
   color: rgb(64, 63, 63);
   gap: 5px;
+  margin-bottom: 3%;
 }
 #small {
   font-size: 15px;
   line-height: 25px;
+  color: #605e5e;
 }
 #small2 {
   font-size: 13px;
@@ -111,19 +113,30 @@ input {
   gap: 20px;
   justify-content: space-around;
   margin-bottom: 8%;
+  margin-top: 5%;
 }
-
+#khali >h6{
+  margin-bottom: 8%;
+  font-size: 15px;
+}
+#khali2 >h6{
+  margin-bottom: 18%;
+  font-size: 15px;
+}
+#khali3 >h6{
+  margin-bottom: 22%;
+  font-size: 15px;
+}
 #khali {
   margin-bottom: 15%;
-}
-
-h6{
-  /* margin-bottom: 15%; */
-  font-size: 14px;
 }
 #khali2 {
   margin-bottom: 30%;
 }
+/* #khali3>h6{
+  margin-bottom:20% ;
+} */
+
 #khali3 {
   margin-bottom: 55%;
 }
@@ -188,6 +201,5 @@ font-weight: bold;
 }
 #Items1>p{
 	border: 0px black solid;
-	margin-bottom: -3px;
 }
 

@@ -56,16 +56,23 @@ document
   .addEventListener("click", function () {
     GoToCart();
   });
+
 function GoToCart() {
-  let SizeColorArr = {
-    size1: document.querySelector("#SizeSelect").value,
-    color: document.querySelector("#ColorSelect").value,
-  };
-  ArrSC.push(SizeColorArr);
-  alert("Product Added to your Bag");
-  AddedToBag.push(SelectedItem);
-  localStorage.setItem("SC", JSON.stringify(ArrSC));
-  localStorage.setItem("Cart", JSON.stringify(AddedToBag));
+  let Selectedsize=document.querySelector("#SizeSelect").value
+  let Selectedcolor=document.querySelector("#ColorSelect").value
+  if(Selectedsize!=="" && Selectedcolor!=="" ){
+    let SizeColorArr = {
+      size:Selectedsize,
+      color:Selectedcolor
+    };
+    ArrSC.push(SizeColorArr);
+    alert("Product Added to your Bag !!");
+    AddedToBag.push(SelectedItem);
+    localStorage.setItem("SC", JSON.stringify(ArrSC));
+    localStorage.setItem("Cart", JSON.stringify(AddedToBag));
+  }else{
+    alert(" Please Select Size and Color !!")
+  }
 }
 
 
