@@ -9,8 +9,8 @@ function footer(){
            <h3 class="f_tital"> <span class="b_boder"> Customer Service</span></h3>
            <p><span class="b_boder">Contact Us</span> </p>
            <p> <span class="b_boder"> Order Status</span></p>
-           <p>  <span  class="b_boder"> Shipping</span></p>
-           <p>  <span class="b_boder">Return Policy & Exchanges</span> </p>
+           <p>  <span  class="b_boder "> Shipping</span></p>
+           <p id="b_boder_w">  <span class="b_boder">Return Policy & Exchanges</span> </p>
            <p> <span class="b_boder"> Price Adjustments</span></p>
            <p> <span class="b_boder"> Gift Cards</span></p>
            <p> <span class="b_boder">FAQ</span> </p>
@@ -91,9 +91,10 @@ function footer(){
        </div>
 
        <div id="uparrow_sd">
+         <div class="up_sd">
            <a href="#"><i class="fa-solid fa-angle-up"></i></i></a>
            <a id="top_sd" href="#">Top</a>
-
+            </div>
        </div>
       
 
