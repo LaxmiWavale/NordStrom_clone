@@ -1,0 +1,204 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+footer{
+    background-color: #f9f9f9;
+    width: 98%;
+    margin: auto;
+    
+}
+#footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between; 
+}
+
+#footer_part1{
+    /* border: 1px solid red; */
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: auto;
+    display: flex;
+    
+}
+
+#footer_part2{
+    /* border: 1px solid red;    */
+width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 390px;
+    display: flex;
+    
+}
+
+#footer_part1 div{
+    /* border: 1px solid blue;   */
+    width: 20%;
+    height: 491px;
+}
+
+#footer_part1 div p{    
+    line-height: 35px;
+    font-size: 17px;
+    font-weight: 100;
+
+}
+#footer_part1 div p:hover{
+    /* border-bottom: 2px solid black; */
+    cursor: pointer;
+}
+#footer_part1 div p:hover .b_boder{
+    border-bottom: 2px solid black;
+}
+
+
+
+.f_tital{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#wrap_lastbox{
+    width: 80%;
+}
+
+#wrapbox4_i2{
+    width: 80%;
+}
+
+
+/* footer part2  */
+
+#logos_sd{
+    /* border: 1px solid green; */
+    width: 70%;
+    height: 390px;
+}
+#uparrow_sd{
+    /* border: 1px solid orange; */
+    width: 30%;
+    height: 390px;
+}
+
+#applogo_sd{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.bi-phone{
+    font-size: 25px;
+    padding-right: 10px;
+}
+.bi-phone+p{
+    font-size: 18px;
+}
+
+#social_sd{
+    /* border: 1px solid red; */
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+#social_sd a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 50%;
+    /* font-size: 12px; */
+    cursor: pointer;
+    color: black;
+}
+
+.fa-plus{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+/* hover effect social media  */
+
+#insta:hover{
+    border:1px solid #017bfe;
+}
+#insta:hover .bi-instagram{
+    color: #017bfe;
+
+}
+
+
+#pinte:hover{   
+    border:1px solid red;
+
+}
+#pinte:hover .fa-pinterest-p{
+
+    color: red;
+}
+
+
+#twitt:hover{
+    border:1px solid #017bfe;
+}
+#twitt:hover .bi-twitter{
+
+    color: #017bfe;
+} 
+
+
+#face:hover{
+    border:1px solid #017bfe;
+}
+#face:hover .fa-facebook-f{
+    color: #017bfe;
+}
+
+
+#uparrow_sd p{
+    font-size: 15px;
+    margin-left: 34%;
+}
+
+.fa-angle-up{
+    font-size: 35px;
+    margin-left: 30%;
+}
+
+/* Copy rifht scetion  */
+
+#cRight{
+    /* border: 1px solid red;        */
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 200;
+
+}
+
+
+
+
+
+#india_logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: auto;
+
+}

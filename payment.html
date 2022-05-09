@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment | Nordstorm</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://i.pinimg.com/originals/76/7c/8b/767c8b49cdb87bcc3c404399bd52aba3.jpg"/>
+    <link rel="stylesheet" href="./payment.css" />
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/4ce3c72d8d.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div id="LogoAndCart">
+        <a href="./index.html"
+          ><img
+            id="Logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/7/72/Nordstrom_Logo_2019.png"
+            alt=""
+        /></a>
+        <i style="margin-right: 3%;cursor: pointer;" class="bi bi-bag" onclick="GoBack()"></i>
+      </div>
+      <div id="formDiv">
+        <div id="FormFillUp">
+          <div id="ColoumFlex">
+            <div id="TryToDoFlex">
+              <i class="bi bi-file-lock"></i>
+              <p id="Secure">Secure Checkout</p>
+              <p id="small">powered by Borderfree</p>
+            </div>
+            <p id="small">
+              Already have a Borderfree account? Click
+              <a href="" id="small2"
+                >here<i id="Question" class="bi bi-question-circle-fill"></i
+              ></a>
+            </p>
+          </div>
+          <div id="Delivery">
+            <div id="one">1</div>
+            <div id="d">Delivery</div>
+          </div>
+          <input type="email" id="email" placeholder="Email" />
+          <div id="gap">
+            <input id="Name" type="text" placeholder="First Name" /><input
+              id="LastName"
+              type="text"
+              placeholder="Last Name"
+            />
+          </div>
+          <input type="text" id="Address" placeholder="Address" />
+          <div id="gap">
+            <input
+              id="Name"
+              type="text"
+              placeholder="Address 2 ( optional )"
+            /><input id="Postal" type="text" placeholder="Postal Code" />
+          </div>
+          <div id="gap">
+            <input id="City" type="text" placeholder="City" /><input
+              id="Name"
+              type="text"
+              placeholder="Rigion ( optional )"
+            />
+          </div>
+          <div id="gap">
+            <input id="Phone" type="text" placeholder="Phone" /><input
+              id="Location"
+              type="text"
+              placeholder="Location(Counrty)"
+            />
+          </div>
+
+          <div id="shipping">
+            <div id="first">
+              <div id="khali">
+                <h6>Delivery Method</h6>
+                <p id="small">Express</p>
+                <p id="small">No additional import charges at delivery</p>
+              </div>
+              <div>
+                <p id="small">Express</p>
+                <p id="small">Import charges collected upon delivery</p>
+              </div>
+            </div>
+
+            <div>
+              <div id="khali3">
+                <h6>Estimated Arrival</h6>
+                <p id="small">6-11 business days</p>
+              </div>
+              <div id="upper">
+                <p id="small">6-11 business days</p>
+              </div>
+            </div>
+
+            <div>
+              <div id="khali3">
+                <h6>Shipping Cost</h6>
+                <p id="small">(INR) ₹14,680</p>
+              </div>
+              <div>
+                <p id="small">(INR) ₹14,680</p>
+              </div>
+            </div>
+          </div>
+          <button id="continue">
+            Continue<i class="bi bi-chevron-right"></i>
+          </button>
+          <p id="block">Payment</p>
+          <p id="last">
+            By placing your order, you agree to the Terms & Conditions and
+            Privacy Policy of Borderfree from Pitney Bowes, Nordstrom’s
+            international fulfillment service. Borderfree is an online merchant
+            that is located at Shelton, US, 06484, 27 Waterview Drive, CT.
+          </p>
+        </div>
+        <!-- ================================================ -->
+        <div id="totalPriceDisplay">
+          <p style="font-size: 23px"><i class="bi bi-cart3"></i> Your Order</p>
+          <button id="continue2">
+            Continue<i class="bi bi-chevron-right"></i>
+          </button>
+
+          <div id="Items1">
+            <p>Items</p>
+            <p id="TotalPeise"></p>
+          </div>
+          <div id="Items1">
+            <p>Shipping</p>
+            <p id="Shipping">Rs. 100</p>
+          </div>
+          <div id="Items1">
+            <p>Duties & Taxes</p>
+            <p id="Shipping">Rs. 50</p>
+          </div>
+          <div id="Cal">
+            <p>Total</p>
+            <p id="Calculate">Rs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="btmnavbar">
+
+    </div>
+  </body>
+</html>
+<script type="module">
+  import {footer} from "./footer.js";
+
+document.getElementById('btmnavbar').innerHTML = footer();
+</script>
+<script src="./payment.js"></script>
