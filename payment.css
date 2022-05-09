@@ -191,6 +191,7 @@ input {
 	flex-direction: row;
 	justify-content: space-between;
 	font-size: 14px;
+  height: 30px;
 }
 #Cal{
 	font-size: 23px;
