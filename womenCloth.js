@@ -98,18 +98,5 @@ function SearchCategory(e) {
   }
 }
 
-//====================
-document.querySelector("#xm9").addEventListener("click", catplus1);
-function catplus1() {
-  console.log("hii");
-  document.getElementById("zz1").style.display = "block";
-  document.getElementById("xm9").style.display = "none";
-  document.getElementById("xm10").style.display = "block";
-}
-document.querySelector("#xm10").addEventListener("click", catplus2);
-function catplus2() {
-  console.log("hii");
-  document.getElementById("zz1").style.display = "none";
-  document.getElementById("xm9").style.display = "block";
-  document.getElementById("xm10").style.display = "none";
-}
+
+

@@ -186,3 +186,18 @@ function sortItems(){
         sortingDatanew()
     }
 }
+
+import ClothMap from "./womenDataMap.js";
+document.querySelector("#search").addEventListener("keydown", function (e) {
+  if (e.key == "Enter") {
+      let Keyword = document.querySelector("#search").value;
+      SearchCategory(Keyword);
+  }
+});
+
+function SearchCategory( Keyword1) {
+  let link = `https://www2.hm.com/en_in/women/shop-by-product/${Keyword1}/_jcr_content/main/productlisting.display.json?sort=stock&image-size=small&image=model&offset=36&page-size=36`;
+  window.location.href = "./womes's_page.html";
+  //document.querySelector("#Pickone").innerHTML = null;
+    ClothMap(link);
+}
