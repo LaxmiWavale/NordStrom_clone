@@ -1,9 +1,8 @@
 
+const url= `https://www2.hm.com/en_in/men/shop-by-product/accessories/_jcr_content/main/productlisting.display.json?sort=stock&productTypes=Bag&image-size=small&image=stillLife`
 
-const url= `https://www2.hm.com/en_in/men/new-arrivals/shoes-accessories/_jcr_content/main/productlisting.display.json?sort=stock&productTypes=Bag&image-size=small&image=model`
 
-
-const urlhtl = `https://www2.hm.com/en_in/men/new-arrivals/shoes-accessories/_jcr_content/main/productlisting.display.json?sort=descPrice&productTypes=Bag&image-size=small&image=model`
+const urllth = `https://www2.hm.com/en_in/men/shop-by-product/accessories/_jcr_content/main/productlisting.display.json?sort=ascPrice&productTypes=Bag&image-size=small&image=stillLife`
 
 
 
@@ -31,14 +30,13 @@ document.getElementById("footer_sd").innerHTML = footer();
 
 async function activewareData(){
 
-    // console.log("funn")
     try{
         const res = await fetch(url);
 
         const data = await res.json();
-        
-        appendData(data.products)
 
+        appendData(data.products)
+        
 
     }
     catch(err){
@@ -53,6 +51,7 @@ activewareData()
 let results = document.getElementById("append_items_sd");
 
 function appendData(data){
+    
     
     results.innerHTML ="";
 
@@ -107,8 +106,8 @@ function appendData(data){
 
 // Sorting backpacks
 
-// low to high price fetch call 
-async function sortingDatalth(){
+// high to low price fetch call 
+async function sortingDatahtl(){
 
     try{
         
@@ -123,12 +122,12 @@ async function sortingDatalth(){
     }
 }
 
-// High to low price fetch call 
-async function sortingDatahtl(){
+// low to high price fetch call 
+async function sortingDatalth(){
 
     try{
         
-        const res = await fetch(urlhtl);
+        const res = await fetch(urllth);
         const data = await res.json()
 
         appendData(data.products)
@@ -173,7 +172,7 @@ function sortItems(){
     
     
     if(select == "lth"){
-     
+    
         sortingDatalth()
 
     }
