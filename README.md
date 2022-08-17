@@ -7,7 +7,16 @@
 
 Our task was to make a functional clone of the Nordstrom website. Nordstrom is an American luxury department store chain headquartered in Seattle, Washington and founded by John W. Nordstrom and Carl F. Wallin in 1901. They sell various products, like cosmetics, skincare, body care, clothing, home decors etc. There are more than 350 Nordstrom, Nordstrom Local and Nordstrom Rack locations. They also serve customers online through their Nordstrom and Nordstrom Rack apps and websites..
 
-Some screenshots of our website:
+
+<h2>Tech Stack used:</h2>
+<p>1) JavaScipt</p>
+<p>2) HTML</p>
+<p>3) CSS</p>
+<p>4) external Library Bootstrap</p>
+
+
+<h2>Some screenshots of our website:</h2>
+
 
 
 <img src="https://miro.medium.com/max/875/1*FavcUcPGwM2W8dszG7Dn-g.png"/>
